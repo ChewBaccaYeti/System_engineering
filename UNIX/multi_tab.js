@@ -12,7 +12,7 @@ function quadTab() {
         }
     }
     // console.table(rows)
-    const out = fs.createWriteStream('multiplication_table.txt')
+    const out = fs.createWriteStream('multiplication_table_js.txt')
     const fileLogger = new Console({ stdout: out })
     fileLogger.table(rows)
     out.end()
