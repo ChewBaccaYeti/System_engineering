@@ -1,0 +1,3 @@
+drwxrwxr-x venedykt/venedykt 0 2026-08-20 20:28 test_dir/
+drwxrwxr-x venedykt/venedykt 0 2026-08-20 20:28 test_dir/subdir1/
+drwxrwxr-x venedykt/venedykt 0 2026-08-20 20:28 test_dir/subdir2/

@@ -1,31 +1,443 @@
-total 196
-drwxrwxr-x 4 venedykt venedykt  4096 Aug 18 15:36 .
-drwxrwxr-x 6 venedykt venedykt  4096 Aug 17 00:00 ..
--rwxrw-r-- 1 venedykt venedykt   106 Aug 17 00:13 combined.txt
--rwxrw-r-- 1 venedykt venedykt 23582 Aug 12 17:08 commands_cheatsheet.md
--rwxrw-r-- 1 venedykt venedykt    21 Aug 12 17:08 data_file
-drwxrwsr-x 3 venedykt venedykt  4096 Aug 12 18:35 deamons
--rwxrw-r-- 1 venedykt venedykt   107 Aug 17 00:13 error.txt
--rwxrw-r-- 1 venedykt venedykt   915 Aug 16 19:12 exec.c
--rwxrw-r-- 1 venedykt venedykt   291 Aug 14 17:03 fork.c
--rwxrw-r-- 1 venedykt venedykt   183 Aug 12 17:08 func.c
--rwxrw-r-- 1 venedykt venedykt 54986 Aug 12 17:08 func.exe
--rw-rw-r-- 1 venedykt venedykt  6602 Aug 18 15:29 linux-special-permissions-explained.png
--rwxrw-r-- 1 venedykt venedykt   511 Aug 12 17:08 multi_tab.js
--rwxrw-r-- 1 venedykt venedykt   716 Aug 12 17:08 multi_tab.sh
--rwxrw-r-- 1 venedykt venedykt  1518 Aug 17 00:02 multiplication_table_js.txt
--rwxrw-r-- 1 venedykt venedykt   495 Aug 17 00:02 multiplication_table_sh.txt
--rwxrw-r-- 1 venedykt venedykt    19 Aug 12 17:08 names
--rwxrw-r-- 1 venedykt venedykt    28 Aug 12 17:08 names_1
--rwxrw-r-- 1 venedykt venedykt    23 Aug 12 17:08 names_2
--rwxrwxrwx 1 venedykt venedykt    66 Aug 12 17:08 nu.sh
--rwxrw-r-- 1 venedykt venedykt   147 Aug 12 17:08 phone_book
--rwxrw-r-- 1 venedykt venedykt   357 Aug 12 17:08 random_usernames
--rwxrw-r-- 1 venedykt venedykt   358 Aug 12 17:08 sort_random_usernames
--rwxrw-r-- 1 venedykt venedykt    19 Aug 12 17:08 sorted_names
-drwxrwxr-t 2 venedykt venedykt  4096 Aug 17 17:17 structure
--rwxrw-r-- 1 venedykt venedykt    88 Aug 12 17:08 sys_usrs
--rwxrw-r-- 1 venedykt venedykt   109 Aug 12 17:08 tail_file
--rwxrwxr-x 1 venedykt venedykt    84 Aug 15 20:07 test_vars.sh
--rwxrw-r-- 1 venedykt venedykt    88 Aug 12 17:08 trm_usrs
--rwxrwxr-x 1 venedykt venedykt    25 Aug 12 17:08 users
+.:
+total 44K
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:40 .
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 12 17:11 ..
+-rw-rw-r-- 1 venedykt venedykt  227 Aug 20 14:24 .classpath
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:54 .git
+-rw-rw-r-- 1 venedykt venedykt    6 Aug 20 14:24 .gitignore
+-rw-rw-r-- 1 venedykt venedykt  377 Aug 20 14:24 .project
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 12 17:08 Assembly 6502
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 14:28 Java
+-rw-rw-r-- 1 venedykt venedykt 1.1K Aug 18 15:34 README.md
+drwxrwxr-x 5 venedykt venedykt 4.0K Aug 20 22:43 UNIX
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 19:16 bin
+
+./.git:
+total 72K
+drwxrwxr-x  7 venedykt venedykt 4.0K Aug 20 22:54 .
+drwxrwxr-x  7 venedykt venedykt 4.0K Aug 20 22:40 ..
+-rw-r--r--  1 venedykt venedykt  12K Aug 20 19:15 .COMMIT_EDITMSG.swp
+-rw-rw-r--  1 venedykt venedykt   13 Aug 20 19:15 COMMIT_EDITMSG
+-rw-rw-r--  1 venedykt venedykt  111 Aug 20 22:54 FETCH_HEAD
+-rw-rw-r--  1 venedykt venedykt   21 Aug 12 17:08 HEAD
+-rw-rw-r--  1 venedykt venedykt   41 Aug 20 19:19 ORIG_HEAD
+-rw-rw-r--  1 venedykt venedykt  309 Aug 20 22:54 config
+-rw-rw-r--  1 venedykt venedykt   73 Aug 12 17:08 description
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 12 17:08 hooks
+-rw-rw-r--  1 venedykt venedykt 3.2K Aug 20 19:15 index
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 12 17:08 info
+drwxrwxr-x  3 venedykt venedykt 4.0K Aug 12 17:08 logs
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 objects
+-rw-rw-r--  1 venedykt venedykt  112 Aug 12 17:08 packed-refs
+drwxrwxr-x  5 venedykt venedykt 4.0K Aug 12 17:08 refs
+
+./.git/hooks:
+total 72K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:54 ..
+-rwxrwxr-x 1 venedykt venedykt  478 Aug 12 17:08 applypatch-msg.sample
+-rwxrwxr-x 1 venedykt venedykt  896 Aug 12 17:08 commit-msg.sample
+-rwxrwxr-x 1 venedykt venedykt 4.7K Aug 12 17:08 fsmonitor-watchman.sample
+-rwxrwxr-x 1 venedykt venedykt  189 Aug 12 17:08 post-update.sample
+-rwxrwxr-x 1 venedykt venedykt  424 Aug 12 17:08 pre-applypatch.sample
+-rwxrwxr-x 1 venedykt venedykt 1.7K Aug 12 17:08 pre-commit.sample
+-rwxrwxr-x 1 venedykt venedykt  416 Aug 12 17:08 pre-merge-commit.sample
+-rwxrwxr-x 1 venedykt venedykt 1.4K Aug 12 17:08 pre-push.sample
+-rwxrwxr-x 1 venedykt venedykt 4.8K Aug 12 17:08 pre-rebase.sample
+-rwxrwxr-x 1 venedykt venedykt  544 Aug 12 17:08 pre-receive.sample
+-rwxrwxr-x 1 venedykt venedykt 1.5K Aug 12 17:08 prepare-commit-msg.sample
+-rwxrwxr-x 1 venedykt venedykt 2.8K Aug 12 17:08 push-to-checkout.sample
+-rwxrwxr-x 1 venedykt venedykt 2.3K Aug 12 17:08 sendemail-validate.sample
+-rwxrwxr-x 1 venedykt venedykt 3.6K Aug 12 17:08 update.sample
+
+./.git/info:
+total 12K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:54 ..
+-rw-rw-r-- 1 venedykt venedykt  240 Aug 12 17:08 exclude
+
+./.git/logs:
+total 16K
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:54 ..
+-rw-rw-r-- 1 venedykt venedykt  744 Aug 20 19:15 HEAD
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 12 17:08 refs
+
+./.git/logs/refs:
+total 16K
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 17:08 ..
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 12 17:08 heads
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 17:08 remotes
+
+./.git/logs/refs/heads:
+total 12K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 12 17:08 ..
+-rw-rw-r-- 1 venedykt venedykt  744 Aug 20 19:15 main
+
+./.git/logs/refs/remotes:
+total 12K
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 12 17:08 ..
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 18 15:47 origin
+
+./.git/logs/refs/remotes/origin:
+total 16K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 18 15:47 .
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 17:08 ..
+-rw-rw-r-- 1 venedykt venedykt  227 Aug 12 17:08 HEAD
+-rw-rw-r-- 1 venedykt venedykt  474 Aug 20 19:15 main
+
+./.git/objects:
+total 112K
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 .
+drwxrwxr-x  7 venedykt venedykt 4.0K Aug 20 22:54 ..
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 08
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:46 17
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 18
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 20
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 31
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 44
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 55
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 66
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 6b
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 74
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 20 19:14 75
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 20 19:14 7a
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:47 af
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 b1
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:48 b8
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 c3
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 20 19:15 d6
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 dd
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 de
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 e4
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 e5
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 20 19:14 f4
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 f7
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 fd
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 12 17:08 info
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 12 17:08 pack
+
+./.git/objects/08:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   67 Aug 18 15:46 155f3930a21100e7d1d59201748e69f017f65c
+
+./.git/objects/17:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:46 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  186 Aug 18 15:46 da5bd7eadd4f511d18d287f5cd07e68de32f70
+
+./.git/objects/18:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   58 Aug 18 15:46 4c24b5eb15f8bf93db5c1873af16b4a941940e
+
+./.git/objects/20:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   52 Aug 18 15:46 8f61b864099e791c291541cdcc31a3b875f320
+
+./.git/objects/31:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  529 Aug 18 15:46 6e091f5c2706d7d5d2ff5a1cc85b4c3089affe
+
+./.git/objects/44:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  186 Aug 18 15:48 c16bf40fd09e90ccfb09b1b5c7ab333b9bd723
+
+./.git/objects/55:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   79 Aug 18 15:46 9a5dea67fbe57b853bb0d9f6cc42b0508aac27
+
+./.git/objects/66:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  924 Aug 18 15:46 c846b6d0a5e551472e75a1c1acb2b91392a212
+
+./.git/objects/6b:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   48 Aug 18 15:46 17b7bfc8abc47b4f848da1efde518b70a84ced
+
+./.git/objects/74:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  342 Aug 18 15:46 1fcddaee1a1702e729d2b2534351656ea7cbb2
+
+./.git/objects/75:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 20 19:14 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   60 Aug 20 19:14 f2846664771e5d689d85ec06679f9aaf9607a4
+
+./.git/objects/7a:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 20 19:14 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  306 Aug 20 19:14 5718f48fdd36581ea94be22b839a9cb1e36d74
+
+./.git/objects/af:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:47 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  177 Aug 18 15:47 af734f89dde02b3adc6221883bc9eefc9dda80
+
+./.git/objects/b1:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   83 Aug 18 15:46 1d8f47fe82c973670ea7806d508e2cd758e07b
+
+./.git/objects/b8:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:48 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  190 Aug 18 15:48 4df5306d4a4fffcce3129f703d11bef4d8bf6c
+
+./.git/objects/c3:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   50 Aug 18 15:46 8750070896fa9b27721296c5962af0737462f4
+
+./.git/objects/d6:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 20 19:15 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  172 Aug 20 19:15 99c95c892cc775cf16d15a7897c02135942851
+
+./.git/objects/dd:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  203 Aug 18 15:46 52b1400f715f262b557b47239a9803a887a0b1
+
+./.git/objects/de:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  342 Aug 18 15:46 65703c4c67e9224b9acc69849845c84b03b491
+
+./.git/objects/e4:
+total 16K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt 6.3K Aug 18 15:46 297c186f6f6bbece10b425a90f25ca324f53f0
+
+./.git/objects/e5:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  439 Aug 18 15:48 e25230984ffe7dc0db5a132ff169197de1c08b
+
+./.git/objects/f4:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 20 19:14 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt  185 Aug 20 19:14 b81917f41ce12272181bdc3c2ddaca3653deb6
+
+./.git/objects/f7:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   79 Aug 18 15:46 f968395d8c89a89468210cf566bae5a86ee817
+
+./.git/objects/fd:
+total 12K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 18 15:45 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt   79 Aug 18 15:46 fdcab41582d08459178509f7a1199519537396
+
+./.git/objects/info:
+total 8.0K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+
+./.git/objects/pack:
+total 48K
+drwxrwxr-x  2 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 28 venedykt venedykt 4.0K Aug 20 22:54 ..
+-r--r--r--  1 venedykt venedykt 2.2K Aug 12 17:08 pack-d00b898364a8e6b9e4400d8c67c8ae13666544a6.idx
+-r--r--r--  1 venedykt venedykt  29K Aug 18 15:46 pack-d00b898364a8e6b9e4400d8c67c8ae13666544a6.pack
+-r--r--r--  1 venedykt venedykt  208 Aug 12 17:08 pack-d00b898364a8e6b9e4400d8c67c8ae13666544a6.rev
+
+./.git/refs:
+total 20K
+drwxrwxr-x 5 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:54 ..
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 19:15 heads
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 17:08 remotes
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 12 17:08 tags
+
+./.git/refs/heads:
+total 12K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 19:15 .
+drwxrwxr-x 5 venedykt venedykt 4.0K Aug 12 17:08 ..
+-rw-rw-r-- 1 venedykt venedykt   41 Aug 20 19:15 main
+
+./.git/refs/remotes:
+total 12K
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 5 venedykt venedykt 4.0K Aug 12 17:08 ..
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 22:54 origin
+
+./.git/refs/remotes/origin:
+total 16K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 22:54 .
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 17:08 ..
+-rw-rw-r-- 1 venedykt venedykt   30 Aug 12 17:08 HEAD
+-rw-rw-r-- 1 venedykt venedykt   41 Aug 20 19:15 main
+
+./.git/refs/tags:
+total 8.0K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 5 venedykt venedykt 4.0K Aug 12 17:08 ..
+
+./Assembly 6502:
+total 16K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 12 17:08 .
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:40 ..
+-rw-rw-r-- 1 venedykt venedykt  266 Aug 12 17:08 LDX_register.ASM
+-rw-rw-r-- 1 venedykt venedykt  248 Aug 12 17:08 instructions_arguments.MS
+
+./Java:
+total 12K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 14:28 .
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:40 ..
+-rw-rw-r-- 1 venedykt venedykt  525 Aug 20 14:28 HelloWorld.java
+
+./UNIX:
+total 200K
+drwxrwxr-x 5 venedykt venedykt 4.0K Aug 20 22:43 .
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:40 ..
+-rwxrw-r-- 1 venedykt venedykt  106 Aug 18 14:08 combined.txt
+-rwxrw-r-- 1 venedykt venedykt  24K Aug 18 14:08 commands_cheatsheet.md
+-rwxrw-r-- 1 venedykt venedykt   21 Aug 18 14:08 data_file
+drwxrwsr-x 3 venedykt venedykt 4.0K Aug 18 15:24 deamons
+-rwxrw-r-- 1 venedykt venedykt  107 Aug 18 14:08 error.txt
+-rwxrw-r-- 1 venedykt venedykt  915 Aug 18 14:08 exec.c
+-rwxrw-r-- 1 venedykt venedykt  291 Aug 18 14:08 fork.c
+-rwxrw-r-- 1 venedykt venedykt  183 Aug 18 14:08 func.c
+-rwxrw-r-- 1 venedykt venedykt  54K Aug 18 14:08 func.exe
+-rw-rw-r-- 1 venedykt venedykt 6.5K Aug 18 15:29 linux-special-permissions-explained.png
+-rwxrw-r-- 1 venedykt venedykt  511 Aug 18 14:08 multi_tab.js
+-rwxrw-r-- 1 venedykt venedykt  716 Aug 18 14:08 multi_tab.sh
+-rwxrw-r-- 1 venedykt venedykt 1.5K Aug 18 14:08 multiplication_table_js.txt
+-rwxrw-r-- 1 venedykt venedykt  495 Aug 18 14:08 multiplication_table_sh.txt
+-rwxrw-r-- 1 venedykt venedykt   19 Aug 18 14:08 names
+-rwxrw-r-- 1 venedykt venedykt   28 Aug 18 14:08 names_1
+-rwxrw-r-- 1 venedykt venedykt   23 Aug 18 14:08 names_2
+-rwxrwxrwx 1 venedykt venedykt   66 Aug 18 14:09 nu.sh
+-rwxrw-r-- 1 venedykt venedykt  147 Aug 18 14:08 phone_book
+-rwxrw-r-- 1 venedykt venedykt  357 Aug 18 14:08 random_usernames
+-rwxrw-r-- 1 venedykt venedykt  358 Aug 18 14:08 sort_random_usernames
+-rwxrw-r-- 1 venedykt venedykt   19 Aug 18 14:08 sorted_names
+drwxrwxr-t 2 venedykt venedykt 4.0K Aug 20 22:53 structure
+-rwxrw-r-- 1 venedykt venedykt   88 Aug 18 14:08 sys_usrs
+-rwxrw-r-- 1 venedykt venedykt  109 Aug 18 14:08 tail_file
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:47 tar_archive
+-rwxrwxr-x 1 venedykt venedykt   84 Aug 15 20:09 test_vars.sh
+-rwxrw-r-- 1 venedykt venedykt   88 Aug 18 14:08 trm_usrs
+-rwxrwxr-x 1 venedykt venedykt   25 Aug 18 13:36 users
+
+./UNIX/deamons:
+total 12K
+drwxrwsr-x 3 venedykt venedykt 4.0K Aug 18 15:24 .
+drwxrwxr-x 5 venedykt venedykt 4.0K Aug 20 22:43 ..
+drwxrwxr-t 3 venedykt venedykt 4.0K Aug 18 15:37 layers
+
+./UNIX/deamons/layers:
+total 12K
+drwxrwxr-t 3 venedykt venedykt 4.0K Aug 18 15:37 .
+drwxrwsr-x 3 venedykt venedykt 4.0K Aug 18 15:24 ..
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 18:35 breakers
+
+./UNIX/deamons/layers/breakers:
+total 12K
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 18:35 .
+drwxrwxr-t 3 venedykt venedykt 4.0K Aug 18 15:37 ..
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 17 17:17 icebreaker
+
+./UNIX/deamons/layers/breakers/icebreaker:
+total 12K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 17 17:17 .
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 12 18:35 ..
+-rw-rw-r-- 1 venedykt venedykt   53 Aug 12 19:12 ice_breaker.c
+
+./UNIX/structure:
+total 24K
+drwxrwxr-t 2 venedykt venedykt 4.0K Aug 20 22:53 .
+drwxrwxr-x 5 venedykt venedykt 4.0K Aug 20 22:43 ..
+-rw-rw-r-- 1 venedykt venedykt 8.0K Aug 20  2026 ls.txt
+-rw-rw-r-- 1 venedykt venedykt  190 Aug 20 20:36 tar_archive.txt
+-rw-rw-r-- 1 venedykt venedykt  860 Aug 18 15:39 tree.txt
+
+./UNIX/tar_archive:
+total 20K
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:47 .
+drwxrwxr-x 5 venedykt venedykt 4.0K Aug 20 22:43 ..
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 20 22:46 extracted_tar
+-rw-rw-r-- 1 venedykt venedykt  167 Aug 20 22:47 test_archive.tar.gz
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:43 test_dir
+
+./UNIX/tar_archive/extracted_tar:
+total 12K
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 20 22:46 .
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:47 ..
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:46 test_dir
+
+./UNIX/tar_archive/extracted_tar/test_dir:
+total 16K
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:46 .
+drwxrwxr-x 3 venedykt venedykt 4.0K Aug 20 22:46 ..
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 22:46 subdir1
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 22:46 subdir2
+
+./UNIX/tar_archive/extracted_tar/test_dir/subdir1:
+total 8.0K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 22:46 .
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:46 ..
+
+./UNIX/tar_archive/extracted_tar/test_dir/subdir2:
+total 8.0K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 22:46 .
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:46 ..
+
+./UNIX/tar_archive/test_dir:
+total 16K
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:43 .
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:47 ..
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 20:28 subdir1
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 20:28 subdir2
+
+./UNIX/tar_archive/test_dir/subdir1:
+total 8.0K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 20:28 .
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:43 ..
+
+./UNIX/tar_archive/test_dir/subdir2:
+total 8.0K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 20:28 .
+drwxrwxr-x 4 venedykt venedykt 4.0K Aug 20 22:43 ..
+
+./bin:
+total 12K
+drwxrwxr-x 2 venedykt venedykt 4.0K Aug 20 19:16 .
+drwxrwxr-x 7 venedykt venedykt 4.0K Aug 20 22:40 ..
+-rw-rw-r-- 1 venedykt venedykt 1.2K Aug 20 19:16 HelloWorld.class
