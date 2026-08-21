@@ -4,42 +4,52 @@
 
 ``` -
 .
+├── a.out
 ├── Assembly 6502
 │   ├── instructions_arguments.MS
 │   └── LDX_register.ASM
 ├── bin
 │   └── HelloWorld.class
+├── combined.txt
+├── commands_cheatsheet.md
+├── copied_ls.txt
+├── error.txt
+├── hard_link_test
 ├── Java
 │   └── HelloWorld.java
+├── output.txt
 ├── README.md
+├── soft_link_test
+├── trace.txt
 └── UNIX
-    ├── combined.txt
-    ├── commands_cheatsheet.md
     ├── data_file
     ├── deamons
     │   └── layers
     │       └── breakers
     │           └── icebreaker
     │               └── ice_breaker.c
-    ├── error.txt
     ├── exec.c
     ├── fork.c
     ├── func.c
     ├── func.exe
+    ├── getpid.c
     ├── js_scripts
     │   ├── multiplication_table_js.txt
     │   └── multi_tab.js
+    ├── link_hard
+    ├── link_soft -> soft_link_test
     ├── linux-special-permissions-explained.png
     ├── names
     ├── names_1
     ├── names_2
     ├── phone_book
+    ├── ptrace.c
     ├── random_usernames
     ├── shell_scripts
+    │   ├── hello.sh
     │   ├── multiplication_table_sh.txt
     │   ├── multi_tab.sh
     │   ├── nu.sh
-    │   ├── tar.sh
     │   └── test_vars.sh
     ├── sorted_names
     ├── sort_random_usernames
@@ -63,5 +73,6 @@
     ├── trm_usrs
     └── users
 
-20 directories, 39 files
+20 directories, 49 files
+
 ```

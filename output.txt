@@ -1,0 +1,20 @@
+Current process, pid is: 135818
+Parent process, ppid is: 135817
+Group process, pgid is: 135817
+Session process, sid is: 129334
+Process real user uid, uid is: 1000
+Process real group gid, gid is: 1000
+Process effective user euid, euid is: 1000
+Process effective group egid, egid is: 1000
+Parent waits child, returned pid: -1
+Child status is: 0
+Current process, pid is: 135817
+Parent process, ppid is: 129334
+Group process, pgid is: 135817
+Session process, sid is: 129334
+Process real user uid, uid is: 1000
+Process real group gid, gid is: 1000
+Process effective user euid, euid is: 1000
+Process effective group egid, egid is: 1000
+Parent waits child, returned pid: 135818
+Child status is: 0

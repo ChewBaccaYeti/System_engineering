@@ -13,7 +13,7 @@ int main(void) {
 		return 0;
 	} else if (pid == (pid_t)0) {
 		printf("The child is running.\n");
-		execl("/usr/bin/who", "who", NULL)
+		execl("/usr/bin/who", "who", NULL);
 		perror("execl: ");
 		return 2;
 	} else if (pid == 0) {
@@ -37,7 +37,8 @@ int spawn(void) {
 		return 0;
 	} else if (pid == (pid_t)0) {
 		printf("The child is running.\n");
-		execlp("/usr/bin/ls", "ls -la", NULL)
+		execlp("/usr/bin/ls", "ls -la", NULL);
 		perror("execl: ");
 		return 2;
+	}
 }
