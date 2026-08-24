@@ -1,21 +1,22 @@
-total 132
-5244424 drwxrwxr-x 7 venedykt venedykt  4096 Aug 21 19:07 .
-5243249 drwxrwxr-x 4 venedykt venedykt  4096 Aug 12 17:11 ..
-5250751 -rw-rw-r-- 1 venedykt venedykt   227 Aug 20 14:24 .classpath
-5244595 drwxrwxr-x 7 venedykt venedykt  4096 Aug 20 23:43 .git
-5246876 -rw-rw-r-- 1 venedykt venedykt     6 Aug 20 14:24 .gitignore
-5266117 -rw-rw-r-- 1 venedykt venedykt   377 Aug 20 14:24 .project
+total 136
 5246891 drwxrwxr-x 2 venedykt venedykt  4096 Aug 12 17:08 Assembly 6502
+5246898 -rwxrw-r-- 1 venedykt venedykt 23582 Aug 12 17:08 commands_cheatsheet.md
+5243249 drwxrwxr-x 4 venedykt venedykt  4096 Aug 12 17:11 ..
+5270664 -rwxrw-r-- 1 venedykt venedykt   107 Aug 17 00:13 error.txt
+5266117 -rw-rw-r-- 1 venedykt venedykt   377 Aug 20 14:24 .project
+5250751 -rw-rw-r-- 1 venedykt venedykt   227 Aug 20 14:24 .classpath
+5246876 -rw-rw-r-- 1 venedykt venedykt     6 Aug 20 14:24 .gitignore
 5246894 drwxrwxr-x 2 venedykt venedykt  4096 Aug 20 14:28 Java
-5246896 -rw-rw-r-- 1 venedykt venedykt  2085 Aug 21 17:29 README.md
-5246897 drwxrwxr-x 7 venedykt venedykt  4096 Aug 21 19:10 UNIX
-5273838 -rwxrwxr-x 1 venedykt venedykt 16560 Aug 21 16:58 a.out
 5636145 drwxrwxr-x 2 venedykt venedykt  4096 Aug 20 19:16 bin
 5271919 -rwxrwxr-x 1 venedykt venedykt   106 Aug 20 23:28 combined.txt
-5246898 -rwxrw-r-- 1 venedykt venedykt 23582 Aug 12 17:08 commands_cheatsheet.md
 5273675 -rw-rw-r-- 1 venedykt venedykt 17893 Aug 21 14:11 copied_ls.txt
-5270664 -rwxrw-r-- 1 venedykt venedykt   107 Aug 17 00:13 error.txt
-5248494 -rw-rw-r-- 2 venedykt venedykt    17 Aug 21 19:08 hard_link_test
+5273838 -rwxrwxr-x 1 venedykt venedykt 16560 Aug 21 16:58 a.out
 5274191 -rw-rw-r-- 1 venedykt venedykt   690 Aug 21 17:00 output.txt
-5275048 -rw-rw-r-- 1 venedykt venedykt    16 Aug 21 19:08 soft_link_test
 5274260 -rw-rw-r-- 1 venedykt venedykt  1568 Aug 21 17:00 trace.txt
+5248494 -rw-rw-r-- 2 venedykt venedykt    17 Aug 21 19:08 hard_link_test
+5275048 -rw-rw-r-- 1 venedykt venedykt    16 Aug 21 19:08 soft_link_test
+5246896 -rw-rw-r-- 1 venedykt venedykt  2199 Aug 21 19:14 README.md
+5244595 drwxrwxr-x 7 venedykt venedykt  4096 Aug 21 19:15 .git
+5244424 drwxrwxr-x 7 venedykt venedykt  4096 Aug 23 16:09 .
+5277018 -rw-rw-r-- 1 venedykt venedykt   658 Aug 23 16:09 nl_usernames
+5246897 drwxrwxr-x 8 venedykt venedykt  4096 Aug 24 14:59 UNIX

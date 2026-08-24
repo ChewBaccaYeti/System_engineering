@@ -17,11 +17,16 @@
 ├── hard_link_test
 ├── Java
 │   └── HelloWorld.java
+├── nl_usernames
 ├── output.txt
 ├── README.md
 ├── soft_link_test
 ├── trace.txt
 └── UNIX
+    ├── archive
+    │   └── last_changes.txt
+    ├── columns
+    ├── cut_columns
     ├── data_file
     ├── deamons
     │   └── layers
@@ -42,9 +47,11 @@
     ├── names
     ├── names_1
     ├── names_2
+    ├── nl_usernames
     ├── phone_book
     ├── ptrace.c
     ├── random_usernames
+    ├── sed_columns
     ├── shell_scripts
     │   ├── hello.sh
     │   ├── multiplication_table_sh.txt
@@ -53,6 +60,7 @@
     │   └── test_vars.sh
     ├── sorted_names
     ├── sort_random_usernames
+    ├── sort_uniq_c_columns
     ├── structure
     │   ├── df_du.txt
     │   ├── ls.txt
@@ -71,8 +79,9 @@
     │   │   └── subdir2
     │   └── test_dir.zip
     ├── trm_usrs
-    └── users
+    ├── users
+    └── wc_usernames
 
-20 directories, 49 files
+21 directories, 57 files
 
 ```
