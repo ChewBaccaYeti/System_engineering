@@ -8,15 +8,11 @@
 ├── Assembly 6502
 │   ├── instructions_arguments.MS
 │   └── LDX_register.ASM
-├── bin
-│   └── HelloWorld.class
 ├── combined.txt
 ├── commands_cheatsheet.md
 ├── copied_ls.txt
 ├── error.txt
 ├── hard_link_test
-├── Java
-│   └── HelloWorld.java
 ├── nl_usernames
 ├── output.txt
 ├── README.md
@@ -82,6 +78,6 @@
     ├── users
     └── wc_usernames
 
-21 directories, 57 files
+19 directories, 55 files
 
 ```
