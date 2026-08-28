@@ -1,0 +1,100 @@
+     1	Apr  2 13:06:43 nginx-proxy sshd[1148]: Server listening on 0.0.0.0 port 22.
+     2	Apr  2 17:56:38 nginx-proxy sshd[146]: Server listening on 0.0.0.0 port 22.
+     3	Apr  3 06:46:07 nginx-proxy cron[8050]: (deploy) CMD (/opt/app/scripts/cleanup.sh)
+     4	Apr 10 18:13:42 nginx-proxy systemd[6275]: app.service: Scheduled restart job, restart counter is at 1.
+     5	Apr 11 01:11:24 nginx-proxy systemd[4676]: app.service: Scheduled restart job, restart counter is at 1.
+     6	Apr 11 08:51:12 nginx-proxy kernel[4833]: ACPI: EC: EC stopped
+     7	Apr 15 05:16:02 nginx-proxy sudo[7393]: deploy : TTY=pts/0 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
+     8	Apr 17 07:41:07 nginx-proxy kernel[6616]: Out of memory: Kill process 4821 (java) score 382 or sacrifice child
+     9	Apr 26 21:24:10 nginx-proxy sudo[7653]: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+       # Apr 27 13:21:41 nginx-proxy postfix/smtpd[7486]: disconnect from mail.example.com[203.0.113.42]
+    10	Apr 28 21:35:00 nginx-proxy sshd[3963]: Received signal 15; terminating.
+    11	Aug  1 14:25:12 nginx-proxy systemd[3452]: NetworkManager[857]: <info>  [1234567890.1234] dhcp4 (eth0): state changed bound -> bound
+    12	Aug 10 13:33:28 nginx-proxy kernel[6909]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+    13	Aug 13 18:29:27 nginx-proxy kernel[1433]: ACPI: EC: EC stopped
+    14	Aug 17 16:21:34 nginx-proxy sudo[7615]: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+    15	Aug 18 05:52:24 nginx-proxy cron[1724]: (CRON) info (No MTA installed, discarding output)
+       # Aug 19 05:24:39 nginx-proxy postfix/smtpd[2300]: connect from mail.example.com[203.0.113.42]
+       # Aug 26 06:10:33 nginx-proxy postfix/smtpd[7256]: disconnect from mail.example.com[203.0.113.42]
+    16	Aug 27 00:41:33 nginx-proxy kernel[8011]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+    17	Aug 27 02:52:13 nginx-proxy sudo[2206]: deploy : TTY=pts/0 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
+    18	Aug 28 01:07:47 nginx-proxy systemd[6834]: NetworkManager[857]: <info>  [1234567890.1234] dhcp4 (eth0): state changed bound -> bound
+    19	Aug 28 07:16:24 nginx-proxy kernel[7573]: EXT4-fs error (device sda1): ext4_journal_check_start:61: Detected aborted journal
+    20	Aug 29 03:22:19 nginx-proxy sshd[9222]: Server listening on :: port 22.
+    21	Dec  1 09:09:54 nginx-proxy systemd[646]: Started Session 42 of user deploy.
+       # Dec  4 21:45:35 nginx-proxy postfix/smtpd[2781]: warning: hostname verification failed for 198.51.100.5
+    22	Dec  5 22:41:47 nginx-proxy sshd[3930]: Server listening on 0.0.0.0 port 22.
+    23	Dec  7 04:27:16 nginx-proxy sshd[5315]: Server listening on :: port 22.
+    24	Dec  9 10:27:34 nginx-proxy sshd[4267]: Server listening on 0.0.0.0 port 22.
+    25	Dec 12 05:57:28 nginx-proxy cron[975]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+       # Dec 25 14:32:44 nginx-proxy postfix/smtpd[6851]: disconnect from mail.example.com[203.0.113.42]
+    26	Feb 15 04:19:29 nginx-proxy sshd[3690]: Received signal 15; terminating.
+       # Feb 15 05:18:27 nginx-proxy postfix/smtpd[8115]: warning: hostname verification failed for 198.51.100.5
+    27	Feb 17 19:40:42 nginx-proxy systemd[7409]: NetworkManager[857]: <info>  [1234567890.1234] dhcp4 (eth0): state changed bound -> bound
+       # Feb 17 22:14:25 nginx-proxy postfix/smtpd[2033]: warning: hostname verification failed for 198.51.100.5
+    28	Feb 21 15:59:44 nginx-proxy sshd[9472]: Server listening on 0.0.0.0 port 22.
+    29	Jan 18 17:42:29 nginx-proxy sudo[7463]: ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/journalctl -f
+    30	Jan 18 19:41:19 nginx-proxy cron[7163]: (deploy) CMD (/opt/app/scripts/cleanup.sh)
+       # Jan 21 18:30:56 nginx-proxy postfix/smtpd[1381]: warning: hostname verification failed for 198.51.100.5
+    31	Jan 23 02:46:19 nginx-proxy sshd[2292]: Received signal 15; terminating.
+    32	Jan 24 03:24:30 nginx-proxy sudo[3997]: ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/journalctl -f
+       # Jan 25 07:03:50 nginx-proxy postfix/smtpd[5304]: warning: hostname verification failed for 198.51.100.5
+       # Jan 29 18:55:32 nginx-proxy postfix/smtpd[2894]: connect from mail.example.com[203.0.113.42]
+    33	Jan 30 23:40:39 nginx-proxy cron[2590]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+    34	Jan 31 11:13:11 nginx-proxy kernel[1560]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+    35	Jul  5 20:09:14 nginx-proxy sudo[1206]: ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/journalctl -f
+    36	Jul  7 13:43:56 nginx-proxy systemd[3720]: Started Session 42 of user deploy.
+    37	Jul 23 10:22:38 nginx-proxy systemd[1095]: app.service: Scheduled restart job, restart counter is at 1.
+    38	Jul 25 12:27:04 nginx-proxy kernel[3435]: EXT4-fs error (device sda1): ext4_journal_check_start:61: Detected aborted journal
+    39	Jul 27 13:21:09 nginx-proxy sshd[3566]: Received signal 15; terminating.
+       # Jul 28 19:28:51 nginx-proxy postfix/smtpd[6115]: warning: hostname verification failed for 198.51.100.5
+    40	Jun  3 15:28:42 nginx-proxy sudo[582]: deploy : TTY=pts/0 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
+    41	Jun  9 13:43:27 nginx-proxy systemd[4855]: Removed slice User Slice of UID 1001.
+    42	Jun 10 18:51:42 nginx-proxy kernel[9568]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+    43	Jun 17 23:34:05 nginx-proxy systemd[2530]: Started Session 42 of user deploy.
+    44	Jun 20 19:17:25 nginx-proxy sudo[562]: deploy : TTY=pts/0 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
+    45	Jun 22 03:24:03 nginx-proxy sshd[1209]: Server listening on :: port 22.
+    46	Jun 27 01:23:31 nginx-proxy systemd[2222]: Started Session 42 of user deploy.
+       # Jun 29 22:29:36 nginx-proxy postfix/smtpd[838]: disconnect from mail.example.com[203.0.113.42]
+    47	Mar  5 09:17:17 nginx-proxy cron[8451]: (deploy) CMD (/opt/app/scripts/cleanup.sh)
+    48	Mar  5 15:59:29 nginx-proxy sudo[1657]: deploy : TTY=pts/0 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
+    49	Mar 11 03:34:54 nginx-proxy kernel[3223]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+       # Mar 18 16:40:42 nginx-proxy postfix/smtpd[7285]: warning: hostname verification failed for 198.51.100.5
+    50	Mar 21 11:13:05 nginx-proxy kernel[8217]: Out of memory: Kill process 4821 (java) score 382 or sacrifice child
+    51	May  5 11:01:46 nginx-proxy cron[999]: (CRON) info (No MTA installed, discarding output)
+    52	May 14 03:01:53 nginx-proxy kernel[7056]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+    53	May 14 22:08:17 nginx-proxy systemd[8283]: Started Session 42 of user deploy.
+    54	May 15 09:35:46 nginx-proxy kernel[8695]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+    55	May 16 07:10:50 nginx-proxy sudo[335]: deploy : TTY=pts/0 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
+    56	May 19 06:33:08 nginx-proxy cron[4763]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+    57	May 21 18:27:14 nginx-proxy sshd[2677]: Received signal 15; terminating.
+    58	May 24 18:16:57 nginx-proxy sudo[3378]: deploy : TTY=pts/0 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
+       # May 30 13:11:06 nginx-proxy postfix/smtpd[5336]: connect from mail.example.com[203.0.113.42]
+    59	May 31 22:43:31 nginx-proxy sshd[8228]: Server listening on :: port 22.
+    60	Nov  1 11:30:35 nginx-proxy sshd[8569]: Server listening on :: port 22.
+    61	Nov  3 08:41:31 nginx-proxy sshd[4671]: Received signal 15; terminating.
+    62	Nov  5 23:47:23 nginx-proxy kernel[162]: ACPI: EC: EC stopped
+    63	Nov  6 06:21:52 nginx-proxy sudo[8186]: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+    64	Nov 10 21:22:59 nginx-proxy systemd[4579]: Started Session 42 of user deploy.
+    65	Nov 11 16:51:16 nginx-proxy systemd[4948]: Removed slice User Slice of UID 1001.
+       # Nov 14 08:52:09 nginx-proxy postfix/smtpd[4983]: connect from mail.example.com[203.0.113.42]
+    66	Nov 15 09:47:01 nginx-proxy cron[1980]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+    67	Nov 15 17:10:35 nginx-proxy sshd[5718]: Received signal 15; terminating.
+       # Nov 17 21:25:39 nginx-proxy postfix/smtpd[9974]: connect from mail.example.com[203.0.113.42]
+    68	Nov 18 09:36:40 nginx-proxy kernel[8761]: Out of memory: Kill process 4821 (java) score 382 or sacrifice child
+    69	Nov 25 23:51:16 nginx-proxy systemd[1645]: NetworkManager[857]: <info>  [1234567890.1234] dhcp4 (eth0): state changed bound -> bound
+    70	Nov 26 00:45:38 nginx-proxy cron[6503]: (CRON) info (No MTA installed, discarding output)
+    71	Nov 27 11:04:51 nginx-proxy kernel[3122]: EXT4-fs error (device sda1): ext4_journal_check_start:61: Detected aborted journal
+    72	Nov 28 02:23:27 nginx-proxy systemd[4314]: Started Session 42 of user deploy.
+    73	Nov 29 08:08:51 nginx-proxy systemd[6561]: Removed slice User Slice of UID 1001.
+    74	Oct  5 12:25:37 nginx-proxy systemd[317]: Started Session 42 of user deploy.
+    75	Oct  7 15:36:05 nginx-proxy sudo[877]: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+    76	Oct 14 22:48:56 nginx-proxy cron[7258]: (root) CMD (/usr/lib/cron/run-crons)
+    77	Oct 21 03:50:12 nginx-proxy kernel[2629]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+    78	Oct 28 05:05:05 nginx-proxy kernel[6707]: EXT4-fs error (device sda1): ext4_journal_check_start:61: Detected aborted journal
+    79	Sep 10 14:23:49 nginx-proxy systemd[6900]: Started Session 42 of user deploy.
+    80	Sep 12 14:35:38 nginx-proxy sudo[373]: ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/journalctl -f
+    81	Sep 19 04:39:55 nginx-proxy sudo[7564]: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+    82	Sep 21 19:57:18 nginx-proxy sudo[9015]: deploy : TTY=pts/0 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
+    83	Sep 22 18:36:28 nginx-proxy cron[2298]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+       # Sep 30 22:04:24 nginx-proxy postfix/smtpd[1069]: disconnect from mail.example.com[203.0.113.42]
