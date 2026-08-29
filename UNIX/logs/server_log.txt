@@ -1,0 +1,58 @@
+Apr  2 13:06:43 nginx-proxy sshd[1148]: Server listening on 0.0.0.0 port 22.
+Apr  2 17:56:38 nginx-proxy sshd[146]: Server listening on 0.0.0.0 port 22.
+Apr  3 06:46:07 nginx-proxy cron[8050]: (deploy) CMD (/opt/app/scripts/cleanup.sh)
+Apr 10 18:13:42 nginx-proxy systemd[6275]: app.service: Scheduled restart job, restart counter is at 1.
+Apr 11 01:11:24 nginx-proxy systemd[4676]: app.service: Scheduled restart job, restart counter is at 1.
+Apr 11 08:51:12 nginx-proxy kernel[4833]: ACPI: EC: EC stopped
+Apr 15 05:16:02 nginx-proxy sudo[7393]: deploy : TTY=pts/0 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
+Apr 17 07:41:07 nginx-proxy kernel[6616]: Out of memory: Kill process 4821 (java) score 382 or sacrifice child
+Apr 26 21:24:10 nginx-proxy sudo[7653]: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+Apr 27 13:21:41 nginx-proxy postfix/smtpd[7486]: disconnect from mail.example.com[203.0.113.42]
+Apr 28 21:35:00 nginx-proxy sshd[3963]: Received signal 15; terminating.
+Aug  1 14:25:12 nginx-proxy systemd[3452]: NetworkManager[857]: <info>  [1234567890.1234] dhcp4 (eth0): state changed bound -> bound
+Aug 10 13:33:28 nginx-proxy kernel[6909]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+Aug 13 18:29:27 nginx-proxy kernel[1433]: ACPI: EC: EC stopped
+Aug 17 16:21:34 nginx-proxy sudo[7615]: john : TTY=pts/2 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt update
+
+Aug 10 13:33:28 nginx-proxy kernel[6909]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+Aug 27 00:41:33 nginx-proxy kernel[8011]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+Jan 31 11:13:11 nginx-proxy kernel[1560]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+Jun 10 18:51:42 nginx-proxy kernel[9568]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+Mar 11 03:34:54 nginx-proxy kernel[3223]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+May 14 03:01:53 nginx-proxy kernel[7056]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+May 15 09:35:46 nginx-proxy kernel[8695]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+Oct 21 03:50:12 nginx-proxy kernel[2629]: TCP: request_sock_TCP: Possible SYN flooding on port 443. Sending cookies.
+13:33:28 kernel[6909]: request_sock_TCP: Possible
+00:41:33 kernel[8011]: request_sock_TCP: Possible
+11:13:11 kernel[1560]: request_sock_TCP: Possible
+18:51:42 kernel[9568]: request_sock_TCP: Possible
+03:34:54 kernel[3223]: request_sock_TCP: Possible
+03:01:53 kernel[7056]: request_sock_TCP: Possible
+09:35:46 kernel[8695]: request_sock_TCP: Possible
+03:50:12 kernel[2629]: request_sock_TCP: Possible
+
+(CRON) 3
+(deploy) 3
+(root) 6
+ACPI: 3
+EXT4-fs 4
+NetworkManager[857]: 4
+Out 3
+Received 7
+Removed 3
+Server 10
+Started 9
+TCP: 8
+app.service: 3
+connect 5
+deploy 8
+disconnect 5
+john 5
+ubuntu 4
+warning: 7
+
+1 systemd[8283]:
+1 systemd[7409]:
+1 systemd[6900]:
+1 systemd[6834]:
+1 systemd[6561]:
