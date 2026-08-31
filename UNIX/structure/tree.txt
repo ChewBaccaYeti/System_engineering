@@ -1,66 +1,55 @@
-.
-├── Assembly 6502
-│   ├── instructions_arguments.MS
-│   └── LDX_register.ASM
-├── commands_cheatsheet.md
-├── hard_link_test
-├── output.txt
-├── README.md
-├── soft_link_test
-├── trace.txt
-└── UNIX
-    ├── archive
-    │   └── last_changes.txt
-    ├── columns
-    ├── C_programs
-    │   ├── exec.c
-    │   ├── fork.c
-    │   ├── func.c
-    │   ├── getpid.c
-    │   ├── process_change_priority.c
-    │   └── ptrace.c
-    ├── deamons
-    │   └── layers
-    │       └── breakers
-    │           └── icebreaker
-    │               └── ice_breaker.c
-    ├── func.exe
-    ├── js_scripts
-    │   ├── multiplication_table_js.txt
-    │   └── multi_tab.js
-    ├── link_hard
-    ├── link_soft -> soft_link_test
-    ├── linux-special-permissions-explained.png
-    ├── logs
-    │   ├── nl-b-a-server.log
-    │   ├── nl-b-p_^#^_.log
-    │   ├── nl-n-rz-server.log
-    │   └── server.log
-    ├── names
-    ├── random_usernames
-    ├── shell_scripts
-    │   ├── hello.sh
-    │   ├── multiplication_table_sh.txt
-    │   ├── multi_tab.sh
-    │   ├── nu.sh
-    │   ├── stdout_redirect.sh
-    │   └── test_vars.sh
-    ├── structure
-    │   ├── df_du.txt
-    │   ├── ls.txt
-    │   ├── tar_archive.txt
-    │   └── tree.txt
-    ├── tar_archive
-    │   ├── extracted_tar
-    │   │   └── test_dir
-    │   │       ├── subdir1
-    │   │       └── subdir2
-    │   ├── test_archive.tar.gz
-    │   ├── test_dir
-    │   │   ├── subdir1
-    │   │   └── subdir2
-    │   └── test_dir.zip
-    ├── tee-command-explanation.png
-    └── users_in_system.txt
+[4.0K]  .
+├── [4.0K]  Assembly 6502
+│   ├── [ 248]  instructions_arguments.ASM
+│   └── [ 266]  LDX_register.ASM
+├── [ 23K]  commands_cheatsheet.md
+├── [  17]  hard_link_test
+├── [ 690]  output.txt
+├── [2.0K]  README.md
+├── [  16]  soft_link_test
+└── [4.0K]  UNIX
+    ├── [4.0K]  archive
+    │   └── [ 963]  last_changes.txt
+    ├── [ 255]  columns
+    ├── [4.0K]  C_programs
+    │   ├── [4.0K]  deamons
+    │   │   └── [4.0K]  layers
+    │   │       └── [4.0K]  breakers
+    │   │           └── [4.0K]  icebreaker
+    │   │               └── [  53]  ice_breaker.c
+    │   ├── [ 920]  exec.c
+    │   ├── [ 316]  fork.c
+    │   ├── [ 183]  func.c
+    │   ├── [1.4K]  getpid.c
+    │   ├── [ 787]  process_change_priority.c
+    │   └── [ 759]  ptrace.c
+    ├── [ 54K]  func.exe
+    ├── [  17]  link_hard
+    ├── [  14]  link_soft -> soft_link_test
+    ├── [6.4K]  linux-special-permissions-explained.png
+    ├── [4.0K]  logs
+    │   ├── [1.6K]  log_report.awk
+    │   ├── [ 812]  log_report.html
+    │   ├── [ 10K]  nl-b-a-server.log
+    │   ├── [ 10K]  nl-b-p_^#^_.log
+    │   ├── [ 10K]  nl-n-rz-server.log
+    │   ├── [9.7K]  server.log
+    │   └── [3.0K]  server_log.txt
+    ├── [  19]  names
+    ├── [ 357]  random_usernames
+    ├── [4.0K]  shell_scripts
+    │   ├── [  47]  hello.sh
+    │   ├── [ 495]  multiplication_table_sh.txt
+    │   ├── [ 716]  multi_tab.sh
+    │   ├── [  79]  nu.sh
+    │   ├── [3.1K]  server-stats.sh
+    │   ├── [  51]  stdout_redirect.sh
+    │   └── [  84]  test_vars.sh
+    ├── [4.0K]  structure
+    │   ├── [1.7K]  df_du.txt
+    │   ├── [ 979]  ls.txt
+    │   └── [   0]  tree.txt
+    ├── [4.4K]  tee-command-explanation.png
+    └── [2.7K]  users_in_system.txt
 
-21 directories, 43 files
+12 directories, 41 files
