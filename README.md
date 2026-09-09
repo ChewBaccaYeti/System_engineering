@@ -17,6 +17,7 @@
     ├── archive
     │   └── last_changes.txt
     ├── columns
+    ├── columns_names
     ├── C_programs
     │   ├── deamons
     │   │   └── layers
@@ -42,6 +43,35 @@
     │   ├── server.log
     │   └── server_log.txt
     ├── names
+    ├── procctl
+    │   ├── conf
+    │   │   └── procctl.conf
+    │   ├── hello-world.cpp
+    │   ├── include
+    │   │   ├── priv.h
+    │   │   ├── procinfo.h
+    │   │   ├── sched_ctl.h
+    │   │   ├── signals.h
+    │   │   ├── supervisor.h
+    │   │   └── util.h
+    │   ├── Makefile
+    │   ├── NOTES.md
+    │   ├── README.md
+    │   ├── src
+    │   │   ├── main.c
+    │   │   ├── priv.c
+    │   │   ├── procinfo.c
+    │   │   ├── sched_ctl.c
+    │   │   ├── signals.c
+    │   │   ├── supervisor.c
+    │   │   └── util.c
+    │   ├── stages
+    │   │   ├── s0_addrmap.c
+    │   │   ├── s1_fork.c
+    │   │   ├── s2_states.c
+    │   │   ├── s5_sched.c
+    │   │   └── s6_priv.c
+    │   └── tests
     ├── random_usernames
     ├── shell_scripts
     │   ├── hello.sh
@@ -58,5 +88,5 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-12 directories, 41 files
+18 directories, 65 files
 ```
