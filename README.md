@@ -6,6 +6,7 @@
 ``` -
 .
 ├── Assembly 6502
+│   ├── fib.ASM
 │   ├── instructions_arguments.ASM
 │   └── LDX_register.ASM
 ├── commands_cheatsheet.md
@@ -25,6 +26,7 @@
     │   │           └── icebreaker
     │   │               └── ice_breaker.c
     │   ├── exec.c
+    │   ├── fib.c
     │   ├── fork.c
     │   ├── func.c
     │   ├── getpid.c
@@ -88,5 +90,5 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-18 directories, 65 files
+18 directories, 67 files
 ```
