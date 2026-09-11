@@ -1,5 +1,6 @@
 # System_engineering
 
+![files_hierarchy](https://github.com/ChewBaccaYeti/System_engineering/blob/main/UNIX/linux-file-hierarchy.png?raw=true)
 ![Spec_perm](https://github.com/ChewBaccaYeti/System_engineering/blob/main/UNIX/linux-special-permissions-explained.png?raw=true)
 ![tee_pipe](https://github.com/ChewBaccaYeti/System_engineering/blob/main/UNIX/tee-command-explanation.png?raw=true)
 
@@ -20,6 +21,7 @@
     ├── columns
     ├── columns_names
     ├── C_programs
+    │   ├── brk_sbrk.c
     │   ├── deamons
     │   │   └── layers
     │   │       └── breakers
@@ -31,10 +33,13 @@
     │   ├── func.c
     │   ├── getpid.c
     │   ├── process_change_priority.c
-    │   └── ptrace.c
+    │   ├── ptrace.c
+    │   ├── times.c
+    │   └── var_types.c
     ├── func.exe
     ├── link_hard
     ├── link_soft -> soft_link_test
+    ├── linux-file-hierarchy.png
     ├── linux-special-permissions-explained.png
     ├── logs
     │   ├── log_report.awk
@@ -90,5 +95,5 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-18 directories, 67 files
+18 directories, 71 files
 ```
