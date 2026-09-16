@@ -18,8 +18,6 @@
 └── UNIX
     ├── archive
     │   └── last_changes.txt
-    ├── columns
-    ├── columns_names
     ├── C_programs
     │   ├── brk_sbrk.c
     │   ├── deamons
@@ -27,15 +25,19 @@
     │   │       └── breakers
     │   │           └── icebreaker
     │   │               └── ice_breaker.c
+    │   ├── declare_assign.c
     │   ├── exec.c
     │   ├── fib.c
     │   ├── fork.c
     │   ├── func.c
     │   ├── getpid.c
+    │   ├── main.c
+    │   ├── main.exe
     │   ├── process_change_priority.c
     │   ├── ptrace.c
-    │   ├── times.c
-    │   └── var_types.c
+    │   └── times.c
+    ├── columns
+    ├── columns_names
     ├── func.exe
     ├── link_hard
     ├── link_soft -> soft_link_test
@@ -47,8 +49,8 @@
     │   ├── nl-b-a-server.log
     │   ├── nl-b-p_^#^_.log
     │   ├── nl-n-rz-server.log
-    │   ├── server.log
-    │   └── server_log.txt
+    │   ├── server_log.txt
+    │   └── server.log
     ├── names
     ├── procctl
     │   ├── conf
@@ -72,18 +74,17 @@
     │   │   ├── signals.c
     │   │   ├── supervisor.c
     │   │   └── util.c
-    │   ├── stages
-    │   │   ├── s0_addrmap.c
-    │   │   ├── s1_fork.c
-    │   │   ├── s2_states.c
-    │   │   ├── s5_sched.c
-    │   │   └── s6_priv.c
-    │   └── tests
+    │   └── stages
+    │       ├── s0_addrmap.c
+    │       ├── s1_fork.c
+    │       ├── s2_states.c
+    │       ├── s5_sched.c
+    │       └── s6_priv.c
     ├── random_usernames
     ├── shell_scripts
     │   ├── hello.sh
-    │   ├── multiplication_table_sh.txt
     │   ├── multi_tab.sh
+    │   ├── multiplication_table_sh.txt
     │   ├── nu.sh
     │   ├── server-stats.sh
     │   ├── stdout_redirect.sh
@@ -95,5 +96,5 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-18 directories, 71 files
+17 directories, 73 files
 ```
