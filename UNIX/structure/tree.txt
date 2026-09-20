@@ -3,35 +3,54 @@
 │   ├── fib.ASM
 │   ├── instructions_arguments.ASM
 │   └── LDX_register.ASM
+├── BASIC
+│   └── grade_calc.bas
+├── COBOL
+│   └── grade_calc.cob
 ├── commands_cheatsheet.md
+├── Fortran
+│   └── grade_calc.f90
 ├── hard_link_test
+├── Haskell
+│   └── grade_calc.hs
+├── Lua
+│   └── grade_calc.lua
 ├── output.txt
+├── PASCAL
+│   └── grade_calc.pas
+├── Perl
+│   └── grade_calc.pl
 ├── README.md
 ├── soft_link_test
+├── TLA+
+│   └── grade_calc.tla
 └── UNIX
     ├── archive
     │   └── last_changes.txt
+    ├── columns
+    ├── columns_names
     ├── C_programs
-    │   ├── brk_sbrk.c
+    │   ├── book
+    │   │   └── part_2
+    │   │       ├── brk_sbrk.c
+    │   │       ├── exec.c
+    │   │       ├── fork.c
+    │   │       ├── func.c
+    │   │       ├── getpid.c
+    │   │       ├── process_change_priority.c
+    │   │       ├── ptrace.c
+    │   │       └── times.c
     │   ├── deamons
     │   │   └── layers
     │   │       └── breakers
     │   │           └── icebreaker
     │   │               └── ice_breaker.c
     │   ├── declare_assign.c
-    │   ├── exec.c
     │   ├── fib.c
-    │   ├── fork.c
-    │   ├── func.c
-    │   ├── getpid.c
+    │   ├── interact_libs_game.c
     │   ├── main.c
-    │   ├── main.exe
-    │   ├── process_change_priority.c
-    │   ├── ptrace.c
-    │   └── times.c
-    ├── columns
-    ├── columns_names
-    ├── func.exe
+    │   ├── math_func.c
+    │   └── prods_bucket.c
     ├── link_hard
     ├── link_soft -> soft_link_test
     ├── linux-file-hierarchy.png
@@ -42,8 +61,8 @@
     │   ├── nl-b-a-server.log
     │   ├── nl-b-p_^#^_.log
     │   ├── nl-n-rz-server.log
-    │   ├── server_log.txt
-    │   └── server.log
+    │   ├── server.log
+    │   └── server_log.txt
     ├── names
     ├── procctl
     │   ├── conf
@@ -67,17 +86,18 @@
     │   │   ├── signals.c
     │   │   ├── supervisor.c
     │   │   └── util.c
-    │   └── stages
-    │       ├── s0_addrmap.c
-    │       ├── s1_fork.c
-    │       ├── s2_states.c
-    │       ├── s5_sched.c
-    │       └── s6_priv.c
+    │   ├── stages
+    │   │   ├── s0_addrmap.c
+    │   │   ├── s1_fork.c
+    │   │   ├── s2_states.c
+    │   │   ├── s5_sched.c
+    │   │   └── s6_priv.c
+    │   └── tests
     ├── random_usernames
     ├── shell_scripts
     │   ├── hello.sh
-    │   ├── multi_tab.sh
     │   ├── multiplication_table_sh.txt
+    │   ├── multi_tab.sh
     │   ├── nu.sh
     │   ├── server-stats.sh
     │   ├── stdout_redirect.sh
@@ -89,4 +109,4 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-17 directories, 73 files
+28 directories, 82 files

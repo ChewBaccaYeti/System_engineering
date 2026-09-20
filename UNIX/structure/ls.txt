@@ -1,314 +1,1506 @@
+.:
 total 112
-54737622 drwxr-xr-x@ 15 venedyktmitishov  staff    480 Sep 12 19:50 .
- 1018533 drwxr-xr-x  30 venedyktmitishov  staff    960 Sep 10 15:38 ..
-56808721 -rw-r--r--@  1 venedyktmitishov  staff    227 Sep 12 19:50 .classpath
-54737623 drwxr-xr-x@ 14 venedyktmitishov  staff    448 Sep 12 19:50 .git
-56808722 -rw-r--r--@  1 venedyktmitishov  staff      6 Sep 12 19:50 .gitignore
-56808723 -rw-r--r--@  1 venedyktmitishov  staff     40 Sep 12 19:50 .hintrc
-56808724 -rw-r--r--@  1 venedyktmitishov  staff    377 Sep 12 19:50 .project
-56808725 drwxr-xr-x@  3 venedyktmitishov  staff     96 Sep 12 19:50 .vscode
-54737699 drwxr-xr-x@  5 venedyktmitishov  staff    160 Sep 12 19:50 Assembly 6502
-56808803 -rwxr-xr-x@  1 venedyktmitishov  staff  23582 Sep 12 19:50 commands_cheatsheet.md
-56808804 -rw-r--r--@  1 venedyktmitishov  staff     17 Sep 12 19:50 hard_link_test
-56808805 -rw-r--r--@  1 venedyktmitishov  staff    690 Sep 12 19:50 output.txt
-56808729 -rw-r--r--@  1 venedyktmitishov  staff   3425 Sep 12 19:50 README.md
-56808806 -rw-r--r--@  1 venedyktmitishov  staff     16 Sep 12 19:50 soft_link_test
-54737705 drwxr-xr-x@ 19 venedyktmitishov  staff    608 Sep 12 19:50 UNIX
+5244424 drwxrwxr-x 14 venedykt venedykt  4096 Sep 20 15:18 .
+5243249 drwxrwxr-x  5 venedykt venedykt  4096 Aug 31 18:11 ..
+5250751 -rw-rw-r--  1 venedykt venedykt   227 Aug 20 14:24 .classpath
+5244595 drwxrwxr-x  8 venedykt venedykt  4096 Sep 20 16:48 .git
+5246876 -rw-rw-r--  1 venedykt venedykt     6 Aug 20 14:24 .gitignore
+5272648 -rw-rw-r--  1 venedykt venedykt    40 Aug 29 10:45 .hintrc
+5266117 -rw-rw-r--  1 venedykt venedykt   377 Aug 20 14:24 .project
+5900175 drwxrwxr-x  2 venedykt venedykt  4096 Sep  9 21:00 .vscode
+5246891 drwxrwxr-x  2 venedykt venedykt  4096 Sep  9 22:42 Assembly 6502
+6029469 drwxrwxr-x  2 venedykt venedykt  4096 Sep 20 15:01 BASIC
+6029466 drwxrwxr-x  2 venedykt venedykt  4096 Sep 20 15:03 COBOL
+6029761 drwxrwxr-x  2 venedykt venedykt  4096 Sep 20 15:17 Fortran
+6029748 drwxrwxr-x  2 venedykt venedykt  4096 Sep 20 15:15 Haskell
+6029464 drwxrwxr-x  2 venedykt venedykt  4096 Sep 20 15:01 Lua
+6029717 drwxrwxr-x  2 venedykt venedykt  4096 Sep 20 15:16 PASCAL
+6029765 drwxrwxr-x  2 venedykt venedykt  4096 Sep 20 15:17 Perl
+5246896 -rw-rw-r--  1 venedykt venedykt  3442 Sep 19 19:42 README.md
+6029752 drwxrwxr-x  2 venedykt venedykt  4096 Sep 20 15:18 TLA+
+5246897 drwxrwxr-x  8 venedykt venedykt  4096 Sep 20 14:58 UNIX
+5246898 -rwxrw-r--  1 venedykt venedykt 23582 Aug 12 17:08 commands_cheatsheet.md
+5248494 -rw-rw-r--  2 venedykt venedykt    17 Aug 21 19:08 hard_link_test
+5274191 -rw-rw-r--  1 venedykt venedykt   690 Aug 21 17:00 output.txt
+5275048 -rw-rw-r--  1 venedykt venedykt    16 Aug 21 19:08 soft_link_test
 
 ./.git:
-total 64
-54737623 drwxr-xr-x@ 14 venedyktmitishov  staff   448 Sep 12 19:50 .
-54737622 drwxr-xr-x@ 15 venedyktmitishov  staff   480 Sep 12 19:50 ..
-54737696 -rw-r--r--@  1 venedyktmitishov  staff   317 Aug 20 19:27 config
-54737626 -rw-r--r--@  1 venedyktmitishov  staff    73 Aug 20 19:27 description
-56808700 -rw-r--r--@  1 venedyktmitishov  staff   103 Sep 12 19:50 FETCH_HEAD
-54737688 -rw-r--r--@  1 venedyktmitishov  staff    21 Aug 20 19:27 HEAD
-54737627 drwxr-xr-x@ 16 venedyktmitishov  staff   512 Aug 20 19:27 hooks
-56808720 -rw-r--r--@  1 venedyktmitishov  staff  7547 Sep 12 19:50 index
-54737624 drwxr-xr-x@  3 venedyktmitishov  staff    96 Aug 20 19:27 info
-54737683 drwxr-xr-x@  4 venedyktmitishov  staff   128 Aug 20 19:27 logs
-54737651 drwxr-xr-x@  4 venedyktmitishov  staff   128 Sep 12 19:50 objects
-56808719 -rw-r--r--@  1 venedyktmitishov  staff    41 Sep 12 19:50 ORIG_HEAD
-54737679 -rw-r--r--@  1 venedyktmitishov  staff   112 Aug 20 19:27 packed-refs
-54737658 drwxr-xr-x@  5 venedyktmitishov  staff   160 Aug 20 19:27 refs
+total 84
+5244595 drwxrwxr-x   8 venedykt venedykt  4096 Sep 20 16:48 .
+5244424 drwxrwxr-x  14 venedykt venedykt  4096 Sep 20 15:18 ..
+5272773 -rw-r--r--   1 venedykt venedykt 12288 Aug 20 19:15 .COMMIT_EDITMSG.swp
+5246569 -rw-rw-r--   1 venedykt venedykt    36 Sep 20 16:48 COMMIT_EDITMSG
+5272784 -rw-rw-r--   1 venedykt venedykt   111 Sep 20 16:49 FETCH_HEAD
+5246886 -rw-rw-r--   1 venedykt venedykt    21 Aug 12 17:08 HEAD
+5270501 -rw-rw-r--   1 venedykt venedykt    41 Sep 20 14:41 ORIG_HEAD
+5272743 -rw-rw-r--   1 venedykt venedykt   309 Aug 20 22:54 config
+5246389 -rw-rw-r--   1 venedykt venedykt    73 Aug 12 17:08 description
+5531938 drwxrwxr-x   2 venedykt venedykt  4096 Sep 20 16:15 gk
+5246850 drwxrwxr-x   2 venedykt venedykt  4096 Aug 12 17:08 hooks
+5248304 -rw-rw-r--   1 venedykt venedykt  8985 Sep 20 16:48 index
+5246390 drwxrwxr-x   2 venedykt venedykt  4096 Aug 12 17:08 info
+5246881 drwxrwxr-x   3 venedykt venedykt  4096 Aug 12 17:08 logs
+5246865 drwxrwxr-x 149 venedykt venedykt  4096 Sep 20 16:49 objects
+5246878 -rw-rw-r--   1 venedykt venedykt   112 Aug 12 17:08 packed-refs
+5246870 drwxrwxr-x   5 venedykt venedykt  4096 Aug 12 17:08 refs
+
+./.git/gk:
+total 12
+5531938 drwxrwxr-x 2 venedykt venedykt 4096 Sep 20 16:15 .
+5244595 drwxrwxr-x 8 venedykt venedykt 4096 Sep 20 16:48 ..
+5516101 -rw-rw-r-- 1 venedykt venedykt  106 Sep 20 16:15 config
 
 ./.git/hooks:
-total 128
-54737627 drwxr-xr-x@ 16 venedyktmitishov  staff   512 Aug 20 19:27 .
-54737623 drwxr-xr-x@ 14 venedyktmitishov  staff   448 Sep 12 19:50 ..
-54737632 -rwxr-xr-x@  1 venedyktmitishov  staff   478 Aug 20 19:27 applypatch-msg.sample
-54737628 -rwxr-xr-x@  1 venedyktmitishov  staff  1972 Aug 20 19:27 commit-msg.sample
-54737633 -rwxr-xr-x@  1 venedyktmitishov  staff  4611 Aug 20 19:27 fsmonitor-watchman.sample
-54737636 -rwxr-xr-x@  1 venedyktmitishov  staff   189 Aug 20 19:27 post-update.sample
-54737638 -rwxr-xr-x@  1 venedyktmitishov  staff   424 Aug 20 19:27 pre-applypatch.sample
-54737631 -rwxr-xr-x@  1 venedyktmitishov  staff  1649 Aug 20 19:27 pre-commit.sample
-54737637 -rwxr-xr-x@  1 venedyktmitishov  staff   416 Aug 20 19:27 pre-merge-commit.sample
-54737639 -rwxr-xr-x@  1 venedyktmitishov  staff  1374 Aug 20 19:27 pre-push.sample
-54737629 -rwxr-xr-x@  1 venedyktmitishov  staff  4898 Aug 20 19:27 pre-rebase.sample
-54737634 -rwxr-xr-x@  1 venedyktmitishov  staff   544 Aug 20 19:27 pre-receive.sample
-54737635 -rwxr-xr-x@  1 venedyktmitishov  staff  1492 Aug 20 19:27 prepare-commit-msg.sample
-54737641 -rwxr-xr-x@  1 venedyktmitishov  staff  2783 Aug 20 19:27 push-to-checkout.sample
-54737630 -rwxr-xr-x@  1 venedyktmitishov  staff  2308 Aug 20 19:27 sendemail-validate.sample
-54737640 -rwxr-xr-x@  1 venedyktmitishov  staff  3650 Aug 20 19:27 update.sample
+total 72
+5246850 drwxrwxr-x 2 venedykt venedykt 4096 Aug 12 17:08 .
+5244595 drwxrwxr-x 8 venedykt venedykt 4096 Sep 20 16:48 ..
+5246855 -rwxrwxr-x 1 venedykt venedykt  478 Aug 12 17:08 applypatch-msg.sample
+5246857 -rwxrwxr-x 1 venedykt venedykt  896 Aug 12 17:08 commit-msg.sample
+5246863 -rwxrwxr-x 1 venedykt venedykt 4726 Aug 12 17:08 fsmonitor-watchman.sample
+5246862 -rwxrwxr-x 1 venedykt venedykt  189 Aug 12 17:08 post-update.sample
+5246851 -rwxrwxr-x 1 venedykt venedykt  424 Aug 12 17:08 pre-applypatch.sample
+5246856 -rwxrwxr-x 1 venedykt venedykt 1649 Aug 12 17:08 pre-commit.sample
+5246859 -rwxrwxr-x 1 venedykt venedykt  416 Aug 12 17:08 pre-merge-commit.sample
+5246858 -rwxrwxr-x 1 venedykt venedykt 1374 Aug 12 17:08 pre-push.sample
+5246860 -rwxrwxr-x 1 venedykt venedykt 4898 Aug 12 17:08 pre-rebase.sample
+5246854 -rwxrwxr-x 1 venedykt venedykt  544 Aug 12 17:08 pre-receive.sample
+5246852 -rwxrwxr-x 1 venedykt venedykt 1492 Aug 12 17:08 prepare-commit-msg.sample
+5246853 -rwxrwxr-x 1 venedykt venedykt 2783 Aug 12 17:08 push-to-checkout.sample
+5246864 -rwxrwxr-x 1 venedykt venedykt 2308 Aug 12 17:08 sendemail-validate.sample
+5246861 -rwxrwxr-x 1 venedykt venedykt 3650 Aug 12 17:08 update.sample
 
 ./.git/info:
-total 8
-54737624 drwxr-xr-x@  3 venedyktmitishov  staff   96 Aug 20 19:27 .
-54737623 drwxr-xr-x@ 14 venedyktmitishov  staff  448 Sep 12 19:50 ..
-54737625 -rw-r--r--@  1 venedyktmitishov  staff  240 Aug 20 19:27 exclude
+total 12
+5246390 drwxrwxr-x 2 venedykt venedykt 4096 Aug 12 17:08 .
+5244595 drwxrwxr-x 8 venedykt venedykt 4096 Sep 20 16:48 ..
+5246848 -rw-rw-r-- 1 venedykt venedykt  240 Aug 12 17:08 exclude
 
 ./.git/logs:
-total 8
-54737683 drwxr-xr-x@  4 venedyktmitishov  staff  128 Aug 20 19:27 .
-54737623 drwxr-xr-x@ 14 venedyktmitishov  staff  448 Sep 12 19:50 ..
-54737691 -rw-r--r--@  1 venedyktmitishov  staff  365 Sep 12 19:50 HEAD
-54737684 drwxr-xr-x@  4 venedyktmitishov  staff  128 Aug 20 19:27 refs
+total 16
+5246881 drwxrwxr-x 3 venedykt venedykt 4096 Aug 12 17:08 .
+5244595 drwxrwxr-x 8 venedykt venedykt 4096 Sep 20 16:48 ..
+5246888 -rw-rw-r-- 1 venedykt venedykt 3817 Sep 20 16:48 HEAD
+5246882 drwxrwxr-x 4 venedykt venedykt 4096 Aug 12 17:08 refs
 
 ./.git/logs/refs:
-total 0
-54737684 drwxr-xr-x@ 4 venedyktmitishov  staff  128 Aug 20 19:27 .
-54737683 drwxr-xr-x@ 4 venedyktmitishov  staff  128 Aug 20 19:27 ..
-54737692 drwxr-xr-x@ 3 venedyktmitishov  staff   96 Aug 20 19:27 heads
-54737685 drwxr-xr-x@ 3 venedyktmitishov  staff   96 Aug 20 19:27 remotes
+total 16
+5246882 drwxrwxr-x 4 venedykt venedykt 4096 Aug 12 17:08 .
+5246881 drwxrwxr-x 3 venedykt venedykt 4096 Aug 12 17:08 ..
+5246889 drwxrwxr-x 2 venedykt venedykt 4096 Aug 12 17:08 heads
+5246883 drwxrwxr-x 3 venedykt venedykt 4096 Aug 12 17:08 remotes
 
 ./.git/logs/refs/heads:
-total 8
-54737692 drwxr-xr-x@ 3 venedyktmitishov  staff   96 Aug 20 19:27 .
-54737684 drwxr-xr-x@ 4 venedyktmitishov  staff  128 Aug 20 19:27 ..
-54737693 -rw-r--r--@ 1 venedyktmitishov  staff  365 Sep 12 19:50 main
+total 12
+5246889 drwxrwxr-x 2 venedykt venedykt 4096 Aug 12 17:08 .
+5246882 drwxrwxr-x 4 venedykt venedykt 4096 Aug 12 17:08 ..
+5246890 -rw-rw-r-- 1 venedykt venedykt 3817 Sep 20 16:48 main
 
 ./.git/logs/refs/remotes:
-total 0
-54737685 drwxr-xr-x@ 3 venedyktmitishov  staff   96 Aug 20 19:27 .
-54737684 drwxr-xr-x@ 4 venedyktmitishov  staff  128 Aug 20 19:27 ..
-54737686 drwxr-xr-x@ 4 venedyktmitishov  staff  128 Sep 12 19:50 origin
+total 12
+5246883 drwxrwxr-x 3 venedykt venedykt 4096 Aug 12 17:08 .
+5246882 drwxrwxr-x 4 venedykt venedykt 4096 Aug 12 17:08 ..
+5246884 drwxrwxr-x 2 venedykt venedykt 4096 Aug 18 15:47 origin
 
 ./.git/logs/refs/remotes/origin:
 total 16
-54737686 drwxr-xr-x@ 4 venedyktmitishov  staff  128 Sep 12 19:50 .
-54737685 drwxr-xr-x@ 3 venedyktmitishov  staff   96 Aug 20 19:27 ..
-54737687 -rw-r--r--@ 1 venedyktmitishov  staff  203 Aug 20 19:27 HEAD
-56808716 -rw-r--r--@ 1 venedyktmitishov  staff  162 Sep 12 19:50 main
+5246884 drwxrwxr-x 2 venedykt venedykt 4096 Aug 18 15:47 .
+5246883 drwxrwxr-x 3 venedykt venedykt 4096 Aug 12 17:08 ..
+5246885 -rw-rw-r-- 1 venedykt venedykt  227 Aug 12 17:08 HEAD
+5249766 -rw-rw-r-- 1 venedykt venedykt 2691 Sep 20 16:49 main
 
 ./.git/objects:
-total 0
-54737651 drwxr-xr-x@  4 venedyktmitishov  staff  128 Sep 12 19:50 .
-54737623 drwxr-xr-x@ 14 venedyktmitishov  staff  448 Sep 12 19:50 ..
-54737653 drwxr-xr-x@  2 venedyktmitishov  staff   64 Aug 20 19:27 info
-54737652 drwxr-xr-x@  8 venedyktmitishov  staff  256 Sep 12 19:50 pack
+total 596
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 .
+5244595 drwxrwxr-x   8 venedykt venedykt 4096 Sep 20 16:48 ..
+5646408 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 05
+5903883 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:12 06
+5900424 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:58 07
+5636150 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:06 08
+5647507 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 0e
+5646420 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 11
+5646428 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 12
+5646793 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 14
+6029815 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 15
+6029706 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 16
+5636180 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:46 17
+5636166 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 18
+5646412 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:12 1a
+5647583 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 1b
+5900365 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:15 1e
+5636168 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 20
+5646778 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 21
+6029708 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 22
+5646810 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 24
+5646430 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 25
+5647718 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 26
+5903892 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 27
+5647714 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 29
+5647501 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 2b
+5636160 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 20:17 31
+5647710 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 20:18 33
+5646410 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 34
+5649815 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 35
+5900420 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 36
+5649945 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 39
+5646791 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 3a
+5647510 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 3b
+5647517 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 41
+5636178 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 44
+5646418 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 45
+5647694 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 48
+5900422 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 49
+5647513 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 4a
+5902379 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 4d
+5647692 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 51
+5649928 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 52
+5646434 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 53
+5647515 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 54
+5636148 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 55
+5646424 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 57
+5900430 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 58
+5649822 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 5a
+5647703 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 5b
+5902390 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 5c
+5647698 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 5d
+5647716 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 5f
+5646416 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 64
+5636176 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 66
+5647491 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 69
+5636172 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 6b
+6029812 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 6c
+5647499 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 6d
+5646812 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 6e
+5903889 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 6f
+5646422 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:26 70
+5646782 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 71
+5646803 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 72
+5646795 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:35 73
+5636162 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:35 74
+5646225 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 75
+5646223 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 7a
+5646797 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 20:17 7c
+5649940 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 23:00 7d
+5649810 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:36 7f
+5647685 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 80
+5649828 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:06 82
+5902383 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 83
+5900393 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:12 84
+5646807 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 85
+5900218 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 87
+5899396 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:21 8a
+5646799 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 8b
+5649824 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 8d
+5649802 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 8e
+5900426 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 90
+5903887 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 92
+5903894 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 93
+5646414 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 97
+6029805 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 98
+6029810 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 9a
+5647497 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 9b
+5649806 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 9c
+5902381 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 9d
+5646801 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 9e
+5900428 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 20:18 9f
+6029803 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 a0
+5649943 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 a1
+5649808 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:04 a2
+5646814 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:15 a6
+5646432 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 aa
+5646787 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 ab
+5900262 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:34 ac
+5903881 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 ad
+5646399 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 ae
+5636182 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 af
+5636164 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 b1
+5900395 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:35 b6
+5646805 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 b7
+5636184 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 b8
+5649819 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:04 b9
+5649817 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 ba
+5649804 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:04 bb
+5900439 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 bd
+5649813 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:04 bf
+5900436 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 c0
+5636170 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 c3
+5900418 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 c4
+5647519 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 c5
+5900391 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:35 c6
+5647721 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 c8
+6029821 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 cb
+5646785 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 d0
+5899398 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:21 d3
+5646229 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 19:15 d6
+5649826 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:06 d8
+5649798 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 d9
+5903885 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 db
+5636156 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 dd
+5636154 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 de
+5646789 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 e0
+5646406 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 e1
+5647688 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 e3
+5636158 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:12 e4
+5636146 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 e5
+5649800 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 e7
+5647505 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 e8
+5647495 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 ea
+5646426 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 ec
+6029807 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 ed
+5647705 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 ee
+5646403 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 f0
+5647708 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 f1
+5646780 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 23:01 f2
+5646227 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 19:14 f4
+5636174 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 f7
+5899400 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:21 fb
+5900434 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 fc
+5636152 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 fd
+5647503 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:35 fe
+5902385 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 ff
+5246868 drwxrwxr-x   3 venedykt venedykt 4096 Sep  8 22:42 info
+5246867 drwxrwxr-x   2 venedykt venedykt 4096 Aug 12 17:08 pack
+
+./.git/objects/05:
+total 24
+5646408 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5644068 -r--r--r--   1 venedykt venedykt  317 Sep  9 21:21 054c5cd812079b58e2374f06a334dd79d53898
+5636484 -r--r--r--   1 venedykt venedykt  293 Sep 20 16:48 2e48b3094a7b10bb9a6c11fe95c3d55c606466
+5646409 -r--r--r--   1 venedykt venedykt  160 Aug 20 23:43 397596c26965ba88d28dc4d28b86e9d18e7b9a
+5646816 -r--r--r--   1 venedykt venedykt  198 Sep  9 23:01 3a23169c84ad1dd6901bdaf42a4ac3efb7b833
+
+./.git/objects/06:
+total 16
+5903883 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:12 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5898395 -r--r--r--   1 venedykt venedykt  627 Sep 20 16:12 06e64c81affa177ad57ee9d6f246fbfaf40b81
+5903884 -r--r--r--   1 venedykt venedykt  378 Sep 19 18:39 da39961329f82f8ad82bd7c0ce12b8f76d8f18
+
+./.git/objects/07:
+total 12
+5900424 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:58 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900425 -r--r--r--   1 venedykt venedykt  688 Sep  9 22:58 6cb77eeec53baec52da83b3b26cd67a5bc9914
+
+./.git/objects/08:
+total 16
+5636150 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:06 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636151 -r--r--r--   1 venedykt venedykt   67 Aug 31 16:15 155f3930a21100e7d1d59201748e69f017f65c
+5649821 -r--r--r--   1 venedykt venedykt   61 Aug 24 15:06 8640f6016ab91f8b6383eeaab040977629fe9d
+
+./.git/objects/0e:
+total 16
+5647507 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647508 -r--r--r--   1 venedykt venedykt   60 Aug 28 17:08 0f745aa176e84a2e118461c80e5c7a8c99bba6
+5636254 -r--r--r--   1 venedykt venedykt  433 Sep 20 14:41 a933e8438180c08626a32531ff4cc063282fed
+
+./.git/objects/11:
+total 16
+5646420 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647493 -r--r--r--   1 venedykt venedykt   89 Aug 28 17:08 02516958fc49a4001aab42b470632558a2fb79
+5646421 -r--r--r--   1 venedykt venedykt  152 Aug 20 23:43 d6573c8206262a377c14a7e57f76163eb00d48
+
+./.git/objects/12:
+total 12
+5646428 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646429 -r--r--r--   1 venedykt venedykt   94 Aug 20 23:43 c44d61ad38dc00efd15edc2dae602f6c9bac54
+
+./.git/objects/14:
+total 12
+5646793 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646794 -r--r--r--   1 venedykt venedykt   30 Aug 21 19:14 35205754d06ec9514444355b0f764794ddd989
+
+./.git/objects/15:
+total 12
+6029815 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+6029816 -r--r--r--   1 venedykt venedykt   59 Sep 20 16:13 44a37ae6911a3998b1b775baf3448da1398147
+
+./.git/objects/16:
+total 12
+6029706 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+6029707 -r--r--r--   1 venedykt venedykt  592 Sep 20 14:41 05392f2e5c788290f0af3589aee98becfc6992
+
+./.git/objects/17:
+total 12
+5636180 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:46 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636181 -r--r--r--   1 venedykt venedykt  186 Aug 18 15:46 da5bd7eadd4f511d18d287f5cd07e68de32f70
+
+./.git/objects/18:
+total 12
+5636166 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636167 -r--r--r--   1 venedykt venedykt   58 Aug 31 16:15 4c24b5eb15f8bf93db5c1873af16b4a941940e
+
+./.git/objects/1a:
+total 16
+5646412 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:12 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646413 -r--r--r--   1 venedykt venedykt   98 Aug 20 23:43 a6783bcde4c1bb66b1f2bba6ccce91c1d32235
+5636252 -r--r--r--   1 venedykt venedykt  487 Sep 20 16:12 e36f9174205e6fe94648db5c732878362450a9
+
+./.git/objects/1b:
+total 20
+5647583 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647702 -r--r--r--   1 venedykt venedykt  702 Aug 31 16:15 4922e87aec54295790a8c9331bb84a00f8c0bc
+5636260 -r--r--r--   1 venedykt venedykt  558 Sep 20 16:13 b6d512e2cc33e4200257c71c62e24d0e726365
+5636234 -r--r--r--   1 venedykt venedykt 3252 Sep 19 18:39 cc3606791330ef290c74232f2b1c0d2d674b56
+
+./.git/objects/1e:
+total 12
+5900365 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900366 -r--r--r--   1 venedykt venedykt  444 Sep  9 22:15 697ffc4ca3196552aa7dc563e9d4a68fc394ac
+
+./.git/objects/20:
+total 12
+5636168 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636169 -r--r--r--   1 venedykt venedykt   52 Aug 31 16:15 8f61b864099e791c291541cdcc31a3b875f320
+
+./.git/objects/21:
+total 16
+5646778 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646779 -r--r--r--   1 venedykt venedykt  759 Aug 21 19:14 0817f00d054c43d53dcd7656d967f80e3bea13
+5647691 -r--r--r--   1 venedykt venedykt 1066 Aug 29 11:11 d10c08a0fd0554c00d5e99e6f770a2fef2bb71
+
+./.git/objects/22:
+total 12
+6029708 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+6029709 -r--r--r--   1 venedykt venedykt  336 Sep 20 14:41 7ad09f3947b637b62f3d8f05eeb996b9d94abf
+
+./.git/objects/24:
+total 20
+5646810 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647525 -r--r--r--   1 venedykt venedykt  204 Aug 28 17:09 29ac8929de997506f7058404630ad1d3b23e58
+5636253 -r--r--r--   1 venedykt venedykt  628 Sep 20 14:41 bd9546d3cb4de0deaa7ceaed0be7fffc6e7577
+5646811 -r--r--r--   1 venedykt venedykt  852 Aug 21 19:14 ffae89fcf9d7465ae1f4eb462d878ccc51e3a6
+
+./.git/objects/25:
+total 12
+5646430 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646431 -r--r--r--   1 venedykt venedykt  831 Aug 20 23:43 c20ec4e8d998819d27d098d387defdfc1202db
+
+./.git/objects/26:
+total 12
+5647718 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647719 -r--r--r--   1 venedykt venedykt  402 Aug 31 16:15 3437708c5393a2a9df3a690972d8b32bbf81a6
+
+./.git/objects/27:
+total 12
+5903892 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5903893 -r--r--r--   1 venedykt venedykt  254 Sep 19 18:39 be9419eec80128f29859ef500b4395c23ad198
+
+./.git/objects/29:
+total 16
+5647714 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647715 -r--r--r--   1 venedykt venedykt  110 Aug 31 16:15 36fb1e182f52c0c25b6a4176bd5b4d07ffce5c
+5636543 -r--r--r--   1 venedykt venedykt  372 Sep 11 23:55 7037ce0f70b8aca931f34b153ebdc6f8012ad0
+
+./.git/objects/2b:
+total 16
+5647501 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647707 -r--r--r--   1 venedykt venedykt  779 Aug 31 16:15 8484e61d61faff41bcd59ff80eb43013b9f518
+5647502 -r--r--r--   1 venedykt venedykt 2777 Aug 28 17:08 aaa90feabae7d40584db1ddbb4c980fde27262
+
+./.git/objects/31:
+total 24
+5636160 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 20:17 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647509 -r--r--r--   1 venedykt venedykt 4149 Aug 28 17:08 495ea818ed1a44fcdd37a7f413b9539ea6973e
+5636161 -r--r--r--   1 venedykt venedykt  529 Aug 18 15:46 6e091f5c2706d7d5d2ff5a1cc85b4c3089affe
+5636242 -r--r--r--   1 venedykt venedykt 3744 Sep 19 20:17 9e513b51ec58d12e64ad26c7e66ecc9c75cbf1
+
+./.git/objects/33:
+total 16
+5647710 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 20:18 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647711 -r--r--r--   1 venedykt venedykt  108 Aug 31 16:15 13f95d06375ce5903797767a9967f96fad3756
+5636245 -r--r--r--   1 venedykt venedykt  191 Sep 19 20:18 da538d52f323fdc855abb22e681eda4741ffe3
+
+./.git/objects/34:
+total 16
+5646410 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646411 -r--r--r--   1 venedykt venedykt  215 Aug 20 23:43 ccd2e5ab60b9040fa5616d58f7e34c0f1e6a58
+5636476 -r--r--r--   1 venedykt venedykt  282 Sep 20 16:48 fec985181ec895c97eb2a6a1470e3c51b37aa7
+
+./.git/objects/35:
+total 16
+5649815 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647512 -r--r--r--   1 venedykt venedykt  221 Aug 28 17:08 a4c123250621dcaa6430e1e8b0efb4ff683cc9
+5649816 -r--r--r--   1 venedykt venedykt  165 Aug 24 15:04 f313ad45d9077eda0460200cd9c36204b8f6d0
+
+./.git/objects/36:
+total 16
+5900420 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5898400 -r--r--r--   1 venedykt venedykt  595 Sep 20 16:13 ab89d0d0bd5071c69d3467676cee17d89cddfe
+5900421 -r--r--r--   1 venedykt venedykt  252 Sep  9 22:58 b57a1cab80dd06e4ca8de79b348bcd20d84894
+
+./.git/objects/39:
+total 16
+5649945 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649946 -r--r--r--   1 venedykt venedykt  167 Aug 24 15:36 caf883b713c219c9fffa0be1b6cd8b82f49f8c
+5644382 -r--r--r--   1 venedykt venedykt  433 Sep  9 22:59 dc104a16661cde75a803e6825aaf48077d990e
+
+./.git/objects/3a:
+total 12
+5646791 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646792 -r--r--r--   1 venedykt venedykt   33 Aug 21 19:14 eec6b5e9c89998ab6748e97e72f7f9c764350f
+
+./.git/objects/3b:
+total 12
+5647510 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647511 -r--r--r--   1 venedykt venedykt 1064 Aug 28 17:08 3e155252c770ecaec77c3ab225cbcad967546b
+
+./.git/objects/41:
+total 12
+5647517 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647518 -r--r--r--   1 venedykt venedykt  145 Aug 28 17:08 bd48b71d859a132fd39633e4fdc4a11fc1792d
+
+./.git/objects/44:
+total 20
+5636178 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636179 -r--r--r--   1 venedykt venedykt  186 Aug 18 15:48 c16bf40fd09e90ccfb09b1b5c7ab333b9bd723
+5649812 -r--r--r--   1 venedykt venedykt  321 Aug 24 15:04 cddef6df404935dbfbc76b94bc430622834202
+5636231 -r--r--r--   1 venedykt venedykt  439 Sep 19 18:39 fadac28f134e7668e6b0e18670ea5746b1b4dd
+
+./.git/objects/45:
+total 12
+5646418 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646419 -r--r--r--   1 venedykt venedykt  182 Aug 20 23:43 3159dffc9b29fec8ab674fbe5f5b6cf1020825
+
+./.git/objects/48:
+total 16
+5647694 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647695 -r--r--r--   1 venedykt venedykt  251 Aug 29 11:11 25c49a2df0ef162a98eeffe4b5d53e66c07598
+5636263 -r--r--r--   1 venedykt venedykt   58 Sep 20 16:13 82ea7f13c698ca5e56730ee03096a21fa0f702
+
+./.git/objects/49:
+total 16
+5900422 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900423 -r--r--r--   1 venedykt venedykt  160 Sep  9 22:58 73b59330bd25c8f9d8406f8e0c14d9e7a0472f
+5898390 -r--r--r--   1 venedykt venedykt  179 Sep 20 14:41 d55d49e3cb4ad7b7b6deed35e2c304feca9104
+
+./.git/objects/4a:
+total 12
+5647513 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647514 -r--r--r--   1 venedykt venedykt  149 Aug 28 17:08 dde68123866134b91c04553681d2c81f96db94
+
+./.git/objects/4d:
+total 12
+5902379 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5902380 -r--r--r--   1 venedykt venedykt  455 Sep 11 23:55 0c1d5425325946171f0040f31b4fb5cf5808ed
+
+./.git/objects/51:
+total 12
+5647692 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647693 -r--r--r--   1 venedykt venedykt 1212 Aug 29 11:11 73a674a0903795aba8ab3a61b8eace3dd6bbec
+
+./.git/objects/52:
+total 16
+5649928 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649937 -r--r--r--   1 venedykt venedykt  790 Aug 24 15:35 47f3262e634d49f19c3b41cf04cb5e95bdb78e
+5636232 -r--r--r--   1 venedykt venedykt  933 Sep 19 20:17 a33f47c39345e16b5b6bdb6bf286dd71155b23
+
+./.git/objects/53:
+total 12
+5646434 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646437 -r--r--r--   1 venedykt venedykt  179 Aug 20 23:43 ab9306fcd01e3bca39f62bb9dfeac33d75b7f2
+
+./.git/objects/54:
+total 16
+5647515 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647516 -r--r--r--   1 venedykt venedykt  237 Aug 28 17:08 32c25b674d66483849381a3f60c1cb1e253fc4
+5647690 -r--r--r--   1 venedykt venedykt  384 Aug 29 11:11 b9a11fd0bebee3700a14d5175bad5f2b585be4
+
+./.git/objects/55:
+total 12
+5636148 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636149 -r--r--r--   1 venedykt venedykt   79 Aug 21 19:14 9a5dea67fbe57b853bb0d9f6cc42b0508aac27
+
+./.git/objects/57:
+total 16
+5646424 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646425 -r--r--r--   1 venedykt venedykt  163 Aug 20 23:43 7e06321f81d0738cac5f5b64a21b6155b098d7
+5636452 -r--r--r--   1 venedykt venedykt  225 Sep 20 16:48 e852a4620d19dee2b9a21106dd998a7fc6ff85
+
+./.git/objects/58:
+total 16
+5900430 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5898399 -r--r--r--   1 venedykt venedykt   59 Sep 20 16:13 d4c7985cc72390f5040528dad47e29ce9e2c99
+5900431 -r--r--r--   1 venedykt venedykt   57 Sep  9 22:59 d71855386ebaddd8e9062552977207a906c4bd
+
+./.git/objects/5a:
+total 16
+5649822 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649823 -r--r--r--   1 venedykt venedykt  145 Aug 24 15:06 3d2612b8505d27b92c9ca480d3952419ae9deb
+5647521 -r--r--r--   1 venedykt venedykt  400 Aug 28 17:08 7a34dd3cb9fda3a0f92b45a6184ad9b8a474a8
+
+./.git/objects/5b:
+total 16
+5647703 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647704 -r--r--r--   1 venedykt venedykt  374 Aug 31 16:15 226d6bca2725307d4e7b4f888d23ea52053719
+5636536 -r--r--r--   1 venedykt venedykt  980 Sep 11 23:55 2d57b6637c494730374a7dd3a460670c77b8e5
+
+./.git/objects/5c:
+total 12
+5902390 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5902391 -r--r--r--   1 venedykt venedykt  240 Sep 11 23:55 1218d8470d8ac6f15bf9b96edff0fafa07fb2d
+
+./.git/objects/5d:
+total 12
+5647698 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647699 -r--r--r--   1 venedykt venedykt  430 Aug 29 11:11 5831e0c19521794a9bc0c312cb6c45755f46f8
+
+./.git/objects/5f:
+total 16
+5647716 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647717 -r--r--r--   1 venedykt venedykt  530 Aug 31 16:15 0ee185760d5be5fc92edc7946299a51698aee9
+5636235 -r--r--r--   1 venedykt venedykt  874 Sep 19 18:39 bfc4e4014d0b376c04961a2efc60e08cd026bf
+
+./.git/objects/64:
+total 12
+5646416 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646417 -r--r--r--   1 venedykt venedykt   78 Aug 20 23:43 54de2bca32292860fc4a450873a614e41a3c02
+
+./.git/objects/66:
+total 28
+5636176 drwxrwxr-x   2 venedykt venedykt  4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt  4096 Sep 20 16:49 ..
+5644202 -r--r--r--   1 venedykt venedykt 12181 Sep  9 22:58 3adf8b8eb4f70e933ad0b85c5d23170becb914
+5636541 -r--r--r--   1 venedykt venedykt   212 Sep 20 16:48 7f20ef5ccd92584fcb14b8f1075fbf5aaa138e
+5636177 -r--r--r--   1 venedykt venedykt   924 Aug 18 15:46 c846b6d0a5e551472e75a1c1acb2b91392a212
+
+./.git/objects/69:
+total 12
+5647491 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647492 -r--r--r--   1 venedykt venedykt  793 Aug 28 17:08 e460739d237f9339991a01b9223caaa68bee86
+
+./.git/objects/6b:
+total 16
+5636172 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636173 -r--r--r--   1 venedykt venedykt   48 Aug 31 16:15 17b7bfc8abc47b4f848da1efde518b70a84ced
+5647701 -r--r--r--   1 venedykt venedykt  183 Aug 29 11:11 9ea45b8a888a89dcf732088bcd6e0c09fac3e3
+
+./.git/objects/6c:
+total 12
+6029812 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+6029813 -r--r--r--   1 venedykt venedykt   58 Sep 20 16:13 5fe11ed8a20af6329b55b98f6348928ca26733
+
+./.git/objects/6d:
+total 12
+5647499 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647500 -r--r--r--   1 venedykt venedykt 2771 Aug 28 17:08 5fa40eb70d786ee806fa2b517021991c297a30
+
+./.git/objects/6e:
+total 28
+5646812 drwxrwxr-x   2 venedykt venedykt  4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt  4096 Sep 20 16:49 ..
+5636538 -r--r--r--   1 venedykt venedykt 13530 Sep 11 23:55 cc3ad2ce34159478a9c27b50a83daaf57e4262
+5646813 -r--r--r--   1 venedykt venedykt   551 Aug 21 19:14 cfb6936a138bd04df2103de79683adfb0b7b4e
+
+./.git/objects/6f:
+total 16
+5903889 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5898397 -r--r--r--   1 venedykt venedykt  429 Sep 20 16:13 84576502b54354773aa5544d157d26393ae9e6
+5903890 -r--r--r--   1 venedykt venedykt  991 Sep 19 18:39 9a5593fe99053703f615589aeb3f9d5a92c213
+
+./.git/objects/70:
+total 16
+5646422 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:26 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646423 -r--r--r--   1 venedykt venedykt  101 Aug 20 23:43 1d6936b368fcf15b5076db57f1c49997b353db
+5644099 -r--r--r--   1 venedykt venedykt  142 Sep  9 21:26 f31cfc31e8456e78f5e0e9b93226828e4743af
+
+./.git/objects/71:
+total 12
+5646782 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646783 -r--r--r--   1 venedykt venedykt  217 Sep  9 22:58 5747a0035391f4c8b39c110df94983cdb88ffa
+
+./.git/objects/72:
+total 12
+5646803 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646804 -r--r--r--   1 venedykt venedykt   32 Aug 21 19:14 2388c4e589c0c04e289ca9345b79f05d9aa808
+
+./.git/objects/73:
+total 16
+5646795 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:35 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649939 -r--r--r--   1 venedykt venedykt  491 Aug 24 15:35 d8ae0855a11b6decd545e99470f9ad02f18063
+5646796 -r--r--r--   1 venedykt venedykt  381 Sep 20 16:48 de9bd582717167f59b1a38ccd28516ea3d5ce0
+
+./.git/objects/74:
+total 16
+5636162 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:35 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636163 -r--r--r--   1 venedykt venedykt  342 Aug 18 15:46 1fcddaee1a1702e729d2b2534351656ea7cbb2
+5644188 -r--r--r--   1 venedykt venedykt  680 Sep  9 22:35 f549bd01b9d8c7c868f876474b4336212f5111
+
+./.git/objects/75:
+total 16
+5646225 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646784 -r--r--r--   1 venedykt venedykt  446 Aug 21 19:14 a27dad994ce30d019717ef5f89379feb06e4ba
+5646226 -r--r--r--   1 venedykt venedykt   60 Aug 20 19:14 f2846664771e5d689d85ec06679f9aaf9607a4
+
+./.git/objects/7a:
+total 16
+5646223 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646224 -r--r--r--   1 venedykt venedykt  306 Aug 20 19:14 5718f48fdd36581ea94be22b839a9cb1e36d74
+5646405 -r--r--r--   1 venedykt venedykt 3285 Aug 21 19:14 e1a121212fa5208c9cca2c80c32e4b9b76c414
+
+./.git/objects/7c:
+total 16
+5646797 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 20:17 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636241 -r--r--r--   1 venedykt venedykt  563 Sep 19 20:17 28eb1106602acda15e2462e9902a8300e570ee
+5646798 -r--r--r--   1 venedykt venedykt   61 Aug 21 19:14 97917891cd45663facd1c99368fbf7963ea821
+
+./.git/objects/7d:
+total 16
+5649940 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 23:00 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649941 -r--r--r--   1 venedykt venedykt  145 Aug 24 15:36 0371abd3a0a9467fc1aa017097707e8170c31e
+5644455 -r--r--r--   1 venedykt venedykt  935 Sep  9 23:00 2c3b2a33f37641b18f828faa94da7fef6dc2b7
+
+./.git/objects/7f:
+total 16
+5649810 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:36 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649942 -r--r--r--   1 venedykt venedykt 1060 Aug 24 15:36 67061b8106bc278e632882caa570cf5644c3dc
+5649811 -r--r--r--   1 venedykt venedykt   73 Aug 24 15:04 dc4a6e9197d18a27a4d0cf78bce02d2799c7f2
+
+./.git/objects/80:
+total 12
+5647685 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647686 -r--r--r--   1 venedykt venedykt 2555 Aug 29 11:11 d6963e17850b8015eba8bf22ea099f53c81dcb
+
+./.git/objects/82:
+total 12
+5649828 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:06 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649829 -r--r--r--   1 venedykt venedykt  187 Aug 24 15:06 f6ffa85eeb72ae5f60c3589dc032f76feae417
+
+./.git/objects/83:
+total 12
+5902383 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5902384 -r--r--r--   1 venedykt venedykt  627 Sep 11 23:55 d7b0986f94474b8de6d0e43a95cda6f18c6ab9
+
+./.git/objects/84:
+total 16
+5900393 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:12 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900394 -r--r--r--   1 venedykt venedykt   92 Sep  9 22:35 12741f332b395bddb7d8e5bd1037a17432268b
+5898393 -r--r--r--   1 venedykt venedykt  424 Sep 20 16:12 fcc2f1aebe05d2cf16fe170f659efaab17f9e6
+
+./.git/objects/85:
+total 12
+5646807 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646808 -r--r--r--   1 venedykt venedykt  194 Aug 21 19:14 51a31a123e5a2f802dc4d718ab5ba84cf27747
+
+./.git/objects/87:
+total 24
+5900218 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900219 -r--r--r--   1 venedykt venedykt  406 Sep  9 21:59 9088e1894151d2d5e64ae66123960dd792cbde
+5900432 -r--r--r--   1 venedykt venedykt   99 Sep  9 22:59 bce836be91ac39fa68161e38cb584d2ad87b86
+5898398 -r--r--r--   1 venedykt venedykt   59 Sep 20 16:13 ce8275de21bb904eae32938622fdad87e2ada5
+5898403 -r--r--r--   1 venedykt venedykt   48 Sep 20 16:48 e3910536925dc0de3ef775283d6575319d970d
+
+./.git/objects/8a:
+total 12
+5899396 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:21 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5899397 -r--r--r--   1 venedykt venedykt  115 Sep  9 21:21 4733c54e259fa3b916583738a28eb19bb0798b
+
+./.git/objects/8b:
+total 12
+5646799 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646800 -r--r--r--   1 venedykt venedykt 3516 Aug 21 19:14 c99ed9f8007684f4a3abccc083689be6a16cdd
+
+./.git/objects/8d:
+total 20
+5649824 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636244 -r--r--r--   1 venedykt venedykt  433 Sep 19 20:18 54e762c7e4f8b0ef9e01645b1e35175bade71c
+5649825 -r--r--r--   1 venedykt venedykt 1060 Aug 24 15:06 73af1f59e1d70ce6c1e2e91fddc774e48195af
+5636466 -r--r--r--   1 venedykt venedykt  666 Sep 20 16:13 9765091e5678980fd492322c05631b1965cc53
+
+./.git/objects/8e:
+total 16
+5649802 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649803 -r--r--r--   1 venedykt venedykt  515 Aug 24 15:04 f112ffb7d8c10a7f7e82a422c7c7b4a4ea2e90
+5636259 -r--r--r--   1 venedykt venedykt  714 Sep 20 16:13 fbc41875af5c133e1197c02ccdd41724c88ba9
+
+./.git/objects/90:
+total 12
+5900426 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900427 -r--r--r--   1 venedykt venedykt   55 Sep  9 22:59 16f12a530c4eb8e11e968d79f57b079f0f1bd1
+
+./.git/objects/92:
+total 12
+5903887 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5903888 -r--r--r--   1 venedykt venedykt  433 Sep 19 18:39 fd325c1e3f8aebaed75e0b9731c8f990a30ae4
+
+./.git/objects/93:
+total 12
+5903894 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5903895 -r--r--r--   1 venedykt venedykt 2103 Sep 19 20:17 22678d47d2c3290dd26965abb3d6163906624b
+
+./.git/objects/97:
+total 16
+5646414 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646415 -r--r--r--   1 venedykt venedykt  376 Aug 20 23:43 841c81a1548e9a24c17b7f1463481133c42aa7
+5647713 -r--r--r--   1 venedykt venedykt   61 Aug 31 16:15 a90758c5178d91799881a0618c8b30c8119da3
+
+./.git/objects/98:
+total 12
+6029805 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+6029806 -r--r--r--   1 venedykt venedykt  599 Sep 20 16:13 82d388ef771038852be9a75ee0e16831faf319
+
+./.git/objects/9a:
+total 12
+6029810 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+6029811 -r--r--r--   1 venedykt venedykt   59 Sep 20 16:13 492c0ceb30bfb84683c0b3922047cc049b4d24
+
+./.git/objects/9b:
+total 12
+5647497 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647498 -r--r--r--   1 venedykt venedykt  377 Sep 20 16:48 658d239bd7dbb5904065ac17280711bc986920
+
+./.git/objects/9c:
+total 20
+5649806 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5644376 -r--r--r--   1 venedykt venedykt  119 Sep  9 22:59 58ae147a1e8961da5eceb10a68b00b2d164f76
+5647494 -r--r--r--   1 venedykt venedykt  380 Aug 28 17:08 a85c7550c24f9230c827bc6382fd34fcc56768
+5649807 -r--r--r--   1 venedykt venedykt  306 Aug 24 15:04 e83fefa420686f2528452aef441a7d3afadcca
+
+./.git/objects/9d:
+total 12
+5902381 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5902382 -r--r--r--   1 venedykt venedykt  110 Sep 11 23:55 827d6412ab586605c227d9d378daa51cc418ed
+
+./.git/objects/9e:
+total 12
+5646801 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646802 -r--r--r--   1 venedykt venedykt  199 Aug 21 19:14 b64b3f4bc5a9f8390cab8a66e722c7aa4e6ff3
+
+./.git/objects/9f:
+total 16
+5900428 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 20:18 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900429 -r--r--r--   1 venedykt venedykt  137 Sep  9 22:59 06abe90d4cb40af3ca2fada8e4eb11355a61e9
+5898383 -r--r--r--   1 venedykt venedykt  628 Sep 19 20:18 eea57dc35e90da76fced362b36f98841d02cda
+
+./.git/objects/a0:
+total 12
+6029803 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+6029804 -r--r--r--   1 venedykt venedykt  397 Sep 20 16:13 3a1a9b3f9102897e26bdcf63fa3b196bf57089
+
+./.git/objects/a1:
+total 16
+5649943 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636467 -r--r--r--   1 venedykt venedykt  184 Sep 20 16:13 080c84199fa25a11e65d69bac6d73a5aab6002
+5649944 -r--r--r--   1 venedykt venedykt  560 Aug 24 15:36 b7e7340eb8bfb2507602cb64560637f97d1551
+
+./.git/objects/a2:
+total 12
+5649808 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:04 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649809 -r--r--r--   1 venedykt venedykt  194 Aug 24 15:04 b9acf24a4507e2fb8343dcdc9a68007aec134d
+
+./.git/objects/a6:
+total 12
+5646814 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646815 -r--r--r--   1 venedykt venedykt  189 Aug 21 19:15 df3eba608dec067145ca74e099f88aa6a176f8
+
+./.git/objects/aa:
+total 20
+5646432 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646433 -r--r--r--   1 venedykt venedykt  249 Aug 20 23:43 288a819d6e304b2ea2c751d1fc46212f70d6e3
+5647687 -r--r--r--   1 venedykt venedykt   52 Aug 29 11:11 8de6b4ec965b487816299acbdc8d8e948b1bb0
+5649938 -r--r--r--   1 venedykt venedykt  698 Aug 24 15:35 f9a86481c1d90a2eb95294575083780b34efb3
+
+./.git/objects/ab:
+total 16
+5646787 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646788 -r--r--r--   1 venedykt venedykt  666 Aug 21 19:14 8ec977ee0ef3dad5dcd3b25a6e272ce85bc563
+5636537 -r--r--r--   1 venedykt venedykt  295 Sep 20 16:48 e2ac1a1eacf7a7eb2d481a16d2cdb71444e6c4
+
+./.git/objects/ac:
+total 12
+5900262 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:34 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900263 -r--r--r--   1 venedykt venedykt  236 Sep  9 21:34 b7f96ca1e56313199d3ffc37b136cb0ba1f26d
+
+./.git/objects/ad:
+total 12
+5903881 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5903882 -r--r--r--   1 venedykt venedykt  360 Sep 19 18:39 a51c918618bd974e608e6bb232289a43c4ae17
+
+./.git/objects/ae:
+total 16
+5646399 drwxrwxr-x   2 venedykt venedykt 4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636539 -r--r--r--   1 venedykt venedykt  860 Sep 11 23:55 0688fcfd292f1f585f5754e2e6d8f0039c09dc
+5646402 -r--r--r--   1 venedykt venedykt   21 Aug 20 23:43 3c1726048cd06b9a143e0376ed46dd9b9a8d53
+
+./.git/objects/af:
+total 16
+5636182 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636233 -r--r--r--   1 venedykt venedykt  109 Sep 19 18:39 6e18ce5970c7f16b7d80dbfebb95e62974d7dc
+5636183 -r--r--r--   1 venedykt venedykt  177 Aug 18 15:47 af734f89dde02b3adc6221883bc9eefc9dda80
+
+./.git/objects/b1:
+total 16
+5636164 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636165 -r--r--r--   1 venedykt venedykt   83 Aug 20 23:43 1d8f47fe82c973670ea7806d508e2cd758e07b
+5647712 -r--r--r--   1 venedykt venedykt  255 Aug 31 16:15 7df72d6cc3a349a31ce36ac00ebbe2d14747df
+
+./.git/objects/b6:
+total 20
+5900395 drwxrwxr-x   2 venedykt venedykt  4096 Sep  9 22:35 .
+5246865 drwxrwxr-x 149 venedykt venedykt  4096 Sep 20 16:49 ..
+5900396 -r--r--r--   1 venedykt venedykt 11841 Sep  9 22:35 c4c34224d820737ceb25a5d385df9a0912a81e
+
+./.git/objects/b7:
+total 12
+5646805 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646806 -r--r--r--   1 venedykt venedykt  311 Aug 21 19:14 606b5a1c7901827676006f6857db69afaf083a
+
+./.git/objects/b8:
+total 16
+5636184 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636185 -r--r--r--   1 venedykt venedykt  190 Aug 18 15:48 4df5306d4a4fffcce3129f703d11bef4d8bf6c
+5644195 -r--r--r--   1 venedykt venedykt  283 Sep  9 22:59 ed625759e01137171d361f9d032fa261b93698
+
+./.git/objects/b9:
+total 12
+5649819 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:04 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649820 -r--r--r--   1 venedykt venedykt  336 Aug 24 15:04 31d4bd9dadc8c03820dd4f90863ad9d97130f5
+
+./.git/objects/ba:
+total 16
+5649817 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636485 -r--r--r--   1 venedykt venedykt  595 Sep 20 16:48 4bcf82c2e39a1f8ef374739e43bf00af7bbbf7
+5649818 -r--r--r--   1 venedykt venedykt   60 Aug 24 15:04 c7654633b93ea1ea6d44f0a8ddd68d2e3285e8
+
+./.git/objects/bb:
+total 12
+5649804 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:04 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649805 -r--r--r--   1 venedykt venedykt  726 Aug 24 15:04 f142a74e8d907af47da15839663eec5154ce04
+
+./.git/objects/bd:
+total 12
+5900439 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900440 -r--r--r--   1 venedykt venedykt  209 Sep  9 22:59 f16e652e754a7a5cb0d11efacc0e22bf82e156
+
+./.git/objects/bf:
+total 12
+5649813 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:04 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649814 -r--r--r--   1 venedykt venedykt  152 Aug 24 15:04 5f68688757806be55b3864d1b1ebf8d02dfac5
+
+./.git/objects/c0:
+total 20
+5900436 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5898396 -r--r--r--   1 venedykt venedykt  193 Sep 20 16:12 9af8088db875c3a91b22c2a921ac5592351405
+5900437 -r--r--r--   1 venedykt venedykt  109 Sep  9 22:59 e5761e8133033bab2d4982e958982a855e6e90
+5898394 -r--r--r--   1 venedykt venedykt  576 Sep 20 16:48 f690a72bc45775d1ff784505b5d1f1be63d71f
+
+./.git/objects/c3:
+total 16
+5636170 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636171 -r--r--r--   1 venedykt venedykt   50 Aug 31 16:15 8750070896fa9b27721296c5962af0737462f4
+5644380 -r--r--r--   1 venedykt venedykt  254 Sep  9 22:59 bd56eda8c5a55307dd71e36b1c3498b9faf1eb
+
+./.git/objects/c4:
+total 16
+5900418 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 14:41 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900419 -r--r--r--   1 venedykt venedykt  827 Sep  9 22:58 400b86171eae31730d24e0750fcdf9ff1ee757
+5898389 -r--r--r--   1 venedykt venedykt  473 Sep 20 14:41 7342d263e15e2683b9d60072fcbb235962a591
+
+./.git/objects/c5:
+total 16
+5647519 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647520 -r--r--r--   1 venedykt venedykt  617 Aug 28 17:08 0a7ad4191c85b37a29ef2eb8a25250d2e191ae
+5647696 -r--r--r--   1 venedykt venedykt  274 Aug 29 11:11 11cd62e88c7dfb2ae2edf8a6904bc4a880107e
+
+./.git/objects/c6:
+total 12
+5900391 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:35 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900392 -r--r--r--   1 venedykt venedykt  925 Sep  9 22:35 9dd807e0cfee4ea3f30d635a4bffc9935f2852
+
+./.git/objects/c8:
+total 12
+5647721 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647722 -r--r--r--   1 venedykt venedykt  196 Aug 31 16:15 58050c5e9014c3fb5215abb90711bddb93d576
+
+./.git/objects/cb:
+total 12
+6029821 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+6029822 -r--r--r--   1 venedykt venedykt  189 Sep 20 16:48 cfeaef38a030cf94631a9cce97b99dd82e8e91
+
+./.git/objects/d0:
+total 12
+5646785 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646786 -r--r--r--   1 venedykt venedykt  496 Aug 21 19:14 2d170c5f06349d640dbcbce92ca4c90947c34d
+
+./.git/objects/d3:
+total 12
+5899398 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:21 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5899399 -r--r--r--   1 venedykt venedykt  429 Sep  9 21:21 c84ee7d6bed68db1ff60f7dcccbe1dd9cfb2c8
+
+./.git/objects/d6:
+total 12
+5646229 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 19:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646230 -r--r--r--   1 venedykt venedykt  172 Aug 20 19:15 99c95c892cc775cf16d15a7897c02135942851
+
+./.git/objects/d8:
+total 12
+5649826 drwxrwxr-x   2 venedykt venedykt 4096 Aug 24 15:06 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649827 -r--r--r--   1 venedykt venedykt  560 Aug 24 15:06 603c29a331a5e3253f6eb76693f9294b66ab7f
+
+./.git/objects/d9:
+total 20
+5649798 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636262 -r--r--r--   1 venedykt venedykt  466 Sep 20 16:13 2278d03edccbe424eba5434ccc19ae606eb2c1
+5649799 -r--r--r--   1 venedykt venedykt  818 Aug 24 15:04 6a7b011616065a442f3d6beeaffe926a345ce3
+5636243 -r--r--r--   1 venedykt venedykt  465 Sep 19 20:18 9cb347e34534d53908da23deaa4dd0ebbc87fe
+
+./.git/objects/db:
+total 12
+5903885 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5903886 -r--r--r--   1 venedykt venedykt  432 Sep 19 18:39 049bc06ce3c8b6cf967afd636ac8d3e15730da
+
+./.git/objects/dd:
+total 48
+5636156 drwxrwxr-x   2 venedykt venedykt  4096 Sep 11 23:55 .
+5246865 drwxrwxr-x 149 venedykt venedykt  4096 Sep 20 16:49 ..
+5636542 -r--r--r--   1 venedykt venedykt 32320 Sep 11 23:55 0f1bdc679802e9f987336b45600e2844ee9037
+5636157 -r--r--r--   1 venedykt venedykt   203 Aug 18 15:46 52b1400f715f262b557b47239a9803a887a0b1
+5636540 -r--r--r--   1 venedykt venedykt   737 Sep 11 23:55 842064e0e43122c7d8b918c8e14661e4bf2e2e
+
+./.git/objects/de:
+total 12
+5636154 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636155 -r--r--r--   1 venedykt venedykt  342 Aug 18 15:46 65703c4c67e9224b9acc69849845c84b03b491
+
+./.git/objects/e0:
+total 16
+5646789 drwxrwxr-x   2 venedykt venedykt 4096 Aug 21 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646809 -r--r--r--   1 venedykt venedykt  145 Aug 21 19:14 8c7fb4b033d8c011568684b61c69678ee76b7e
+5646790 -r--r--r--   1 venedykt venedykt  487 Sep 20 16:48 c1600012f31b09352c0608277712b2b2e37825
+
+./.git/objects/e1:
+total 12
+5646406 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646407 -r--r--r--   1 venedykt venedykt  587 Aug 20 23:43 33dfda4f2519465d4b40a4cf94906652d3a21d
+
+./.git/objects/e3:
+total 12
+5647688 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647689 -r--r--r--   1 venedykt venedykt  631 Aug 29 11:11 46500cb511515e7c09eed4f2a01b5ac694e72c
+
+./.git/objects/e4:
+total 20
+5636158 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:12 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636257 -r--r--r--   1 venedykt venedykt  433 Sep 20 16:12 1f9103a4fbf2b91ed87294a55418596669cbb4
+5636159 -r--r--r--   1 venedykt venedykt 6418 Aug 18 15:46 297c186f6f6bbece10b425a90f25ca324f53f0
+
+./.git/objects/e5:
+total 16
+5636146 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636147 -r--r--r--   1 venedykt venedykt  439 Aug 18 15:48 e25230984ffe7dc0db5a132ff169197de1c08b
+5636495 -r--r--r--   1 venedykt venedykt  666 Sep 20 16:48 fe40dc81407e86f5c3356a25b836b72c675c61
+
+./.git/objects/e7:
+total 16
+5649800 drwxrwxr-x   2 venedykt venedykt 4096 Aug 29 11:11 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5649801 -r--r--r--   1 venedykt venedykt  138 Aug 24 15:04 b1f13b75ad15b48c2c52cc40a32f62581e32ed
+5647697 -r--r--r--   1 venedykt venedykt  618 Aug 29 11:11 b6f9a440e2c20c35a03f37312c8ca52e045843
+
+./.git/objects/e8:
+total 12
+5647505 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647506 -r--r--r--   1 venedykt venedykt 2583 Aug 28 17:08 7f47967b0f0e2bdc2242bccd0b4c8972d034f0
+
+./.git/objects/ea:
+total 12
+5647495 drwxrwxr-x   2 venedykt venedykt 4096 Aug 28 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647496 -r--r--r--   1 venedykt venedykt  687 Aug 28 17:08 794846ee2c71d2dd1c90d5fe57e643b5b201e5
+
+./.git/objects/ec:
+total 12
+5646426 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 23:43 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646427 -r--r--r--   1 venedykt venedykt  144 Aug 20 23:43 6e17f75cf3ab667af089bf3fb545b8226035d6
+
+./.git/objects/ed:
+total 16
+6029807 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+6029808 -r--r--r--   1 venedykt venedykt  456 Sep 20 16:13 86159006f5531362875ebc0e182fbc986c9889
+6029809 -r--r--r--   1 venedykt venedykt   59 Sep 20 16:13 f450a6bea0af745b2c704a368184872b6f2e3e
+
+./.git/objects/ee:
+total 20
+5647705 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647706 -r--r--r--   1 venedykt venedykt 9738 Aug 31 16:15 28993c23023eecbbed53134c2372141fdc4416
+
+./.git/objects/f0:
+total 16
+5646403 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646404 -r--r--r--   1 venedykt venedykt  678 Aug 20 23:43 038a104b004b5b0413ab019f1c1ce257fe73c9
+5636261 -r--r--r--   1 venedykt venedykt  462 Sep 20 16:13 2d0a87f970fc8f12d5011fe163b9769ed45ed6
+
+./.git/objects/f1:
+total 12
+5647708 drwxrwxr-x   2 venedykt venedykt 4096 Aug 31 16:15 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5647709 -r--r--r--   1 venedykt venedykt  369 Aug 31 16:15 511fae6eb9c0853b058f2080719be5ae7d30aa
+
+./.git/objects/f2:
+total 20
+5646780 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 23:01 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5644460 -r--r--r--   1 venedykt venedykt  433 Sep  9 23:01 1b78bc7920a7624ba5dd8d2be801ba51fae6ce
+5646781 -r--r--r--   1 venedykt venedykt  338 Sep 20 16:48 5122a68ac974ef4ba93d390a4985815e78dd81
+5644075 -r--r--r--   1 venedykt venedykt  102 Sep  9 21:59 53cbe41afe163bb3d9777d37984aec781aaeff
+
+./.git/objects/f4:
+total 12
+5646227 drwxrwxr-x   2 venedykt venedykt 4096 Aug 20 19:14 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5646228 -r--r--r--   1 venedykt venedykt  185 Aug 20 19:14 b81917f41ce12272181bdc3c2ddaca3653deb6
+
+./.git/objects/f7:
+total 16
+5636174 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:13 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636264 -r--r--r--   1 venedykt venedykt   58 Sep 20 16:13 19bb4de90e182bfdbe1f64a738085600962107
+5636175 -r--r--r--   1 venedykt venedykt   79 Aug 18 15:46 f968395d8c89a89468210cf566bae5a86ee817
+
+./.git/objects/fb:
+total 12
+5899400 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 21:21 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5899401 -r--r--r--   1 venedykt venedykt  173 Sep  9 21:21 4e02f1c13c4b85c05e2f19cb1459fa89e3087c
+
+./.git/objects/fc:
+total 16
+5900434 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:59 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5900435 -r--r--r--   1 venedykt venedykt  105 Sep  9 22:59 94d729fb3802d89478473dd06afb01c9408cf6
+5900438 -r--r--r--   1 venedykt venedykt  588 Sep  9 22:59 b80842b9a9dee35657e5cda63b994a1034545d
+
+./.git/objects/fd:
+total 12
+5636152 drwxrwxr-x   2 venedykt venedykt 4096 Aug 18 15:45 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5636153 -r--r--r--   1 venedykt venedykt   79 Aug 21 19:14 fdcab41582d08459178509f7a1199519537396
+
+./.git/objects/fe:
+total 16
+5647503 drwxrwxr-x   2 venedykt venedykt 4096 Sep  9 22:35 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5644191 -r--r--r--   1 venedykt venedykt  818 Sep  9 22:35 1ebf82773bf008ba6c0754d0dda75c70cdc80e
+5647504 -r--r--r--   1 venedykt venedykt 2771 Aug 28 17:08 38d22a1600f3835e850abc8bb0f1cab2d627b3
+
+./.git/objects/ff:
+total 16
+5902385 drwxrwxr-x   2 venedykt venedykt 4096 Sep 19 18:39 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5903891 -r--r--r--   1 venedykt venedykt  628 Sep 19 18:39 704c69302206dbc17fa07e7b86c5adac797b14
+5902386 -r--r--r--   1 venedykt venedykt  433 Sep 11 23:55 fe169ba885b364818909c7ed3701f097a74015
 
 ./.git/objects/info:
-total 0
-54737653 drwxr-xr-x@ 2 venedyktmitishov  staff   64 Aug 20 19:27 .
-54737651 drwxr-xr-x@ 4 venedyktmitishov  staff  128 Sep 12 19:50 ..
+total 12
+5246868 drwxrwxr-x   3 venedykt venedykt 4096 Sep  8 22:42 .
+5246865 drwxrwxr-x 149 venedykt venedykt 4096 Sep 20 16:49 ..
+5531940 drwxrwxr-x   2 venedykt venedykt 4096 Sep 20 16:48 commit-graphs
+
+./.git/objects/info/commit-graphs:
+total 16
+5531940 drwxrwxr-x 2 venedykt venedykt 4096 Sep 20 16:48 .
+5246868 drwxrwxr-x 3 venedykt venedykt 4096 Sep  8 22:42 ..
+5516173 -r--r--r-- 1 venedykt venedykt   41 Sep 20 16:48 commit-graph-chain
+5528719 -r--r--r-- 1 venedykt venedykt 3038 Sep 20 16:48 graph-1d4f7f83907a760827a341e1b193eda1a39f2f74.graph
 
 ./.git/objects/pack:
-total 304
-54737652 drwxr-xr-x@ 8 venedyktmitishov  staff    256 Sep 12 19:50 .
-54737651 drwxr-xr-x@ 4 venedyktmitishov  staff    128 Sep 12 19:50 ..
-54737669 -r--r--r--@ 1 venedyktmitishov  staff   2836 Aug 20 19:27 pack-44accecbe67528b1b89dd9eea9b7f9d3abf31bc8.idx
-54737668 -r--r--r--@ 1 venedyktmitishov  staff  39306 Aug 20 19:27 pack-44accecbe67528b1b89dd9eea9b7f9d3abf31bc8.pack
-54737670 -r--r--r--@ 1 venedyktmitishov  staff    304 Aug 20 19:27 pack-44accecbe67528b1b89dd9eea9b7f9d3abf31bc8.rev
-56808706 -r--r--r--@ 1 venedyktmitishov  staff   5132 Sep 12 19:50 pack-4ad9281550678769c776270ab59860819c0d5dc0.idx
-56808704 -r--r--r--@ 1 venedyktmitishov  staff  91260 Sep 12 19:50 pack-4ad9281550678769c776270ab59860819c0d5dc0.pack
-56808707 -r--r--r--@ 1 venedyktmitishov  staff    632 Sep 12 19:50 pack-4ad9281550678769c776270ab59860819c0d5dc0.rev
+total 48
+5246867 drwxrwxr-x   2 venedykt venedykt  4096 Aug 12 17:08 .
+5246865 drwxrwxr-x 149 venedykt venedykt  4096 Sep 20 16:49 ..
+5246874 -r--r--r--   1 venedykt venedykt  2164 Aug 12 17:08 pack-d00b898364a8e6b9e4400d8c67c8ae13666544a6.idx
+5246869 -r--r--r--   1 venedykt venedykt 29445 Sep 20 16:48 pack-d00b898364a8e6b9e4400d8c67c8ae13666544a6.pack
+5246875 -r--r--r--   1 venedykt venedykt   208 Aug 12 17:08 pack-d00b898364a8e6b9e4400d8c67c8ae13666544a6.rev
 
 ./.git/refs:
-total 0
-54737658 drwxr-xr-x@  5 venedyktmitishov  staff  160 Aug 20 19:27 .
-54737623 drwxr-xr-x@ 14 venedyktmitishov  staff  448 Sep 12 19:50 ..
-54737664 drwxr-xr-x@  3 venedyktmitishov  staff   96 Sep 12 19:50 heads
-54737680 drwxr-xr-x@  3 venedyktmitishov  staff   96 Aug 20 19:27 remotes
-54737665 drwxr-xr-x@  2 venedyktmitishov  staff   64 Aug 20 19:27 tags
+total 20
+5246870 drwxrwxr-x 5 venedykt venedykt 4096 Aug 12 17:08 .
+5244595 drwxrwxr-x 8 venedykt venedykt 4096 Sep 20 16:48 ..
+5246871 drwxrwxr-x 2 venedykt venedykt 4096 Sep 20 16:48 heads
+5246877 drwxrwxr-x 3 venedykt venedykt 4096 Aug 12 17:08 remotes
+5246872 drwxrwxr-x 2 venedykt venedykt 4096 Aug 12 17:08 tags
 
 ./.git/refs/heads:
-total 8
-54737664 drwxr-xr-x@ 3 venedyktmitishov  staff   96 Sep 12 19:50 .
-54737658 drwxr-xr-x@ 5 venedyktmitishov  staff  160 Aug 20 19:27 ..
-56808808 -rw-r--r--@ 1 venedyktmitishov  staff   41 Sep 12 19:50 main
+total 12
+5246871 drwxrwxr-x 2 venedykt venedykt 4096 Sep 20 16:48 .
+5246870 drwxrwxr-x 5 venedykt venedykt 4096 Aug 12 17:08 ..
+5254003 -rw-rw-r-- 1 venedykt venedykt   41 Sep 20 16:48 main
 
 ./.git/refs/remotes:
-total 0
-54737680 drwxr-xr-x@ 3 venedyktmitishov  staff   96 Aug 20 19:27 .
-54737658 drwxr-xr-x@ 5 venedyktmitishov  staff  160 Aug 20 19:27 ..
-54737681 drwxr-xr-x@ 4 venedyktmitishov  staff  128 Sep 12 19:50 origin
+total 12
+5246877 drwxrwxr-x 3 venedykt venedykt 4096 Aug 12 17:08 .
+5246870 drwxrwxr-x 5 venedykt venedykt 4096 Aug 12 17:08 ..
+5246879 drwxrwxr-x 2 venedykt venedykt 4096 Sep 20 16:49 origin
 
 ./.git/refs/remotes/origin:
 total 16
-54737681 drwxr-xr-x@ 4 venedyktmitishov  staff  128 Sep 12 19:50 .
-54737680 drwxr-xr-x@ 3 venedyktmitishov  staff   96 Aug 20 19:27 ..
-54737682 -rw-r--r--@ 1 venedyktmitishov  staff   30 Aug 20 19:27 HEAD
-56808715 -rw-r--r--@ 1 venedyktmitishov  staff   41 Sep 12 19:50 main
+5246879 drwxrwxr-x 2 venedykt venedykt 4096 Sep 20 16:49 .
+5246877 drwxrwxr-x 3 venedykt venedykt 4096 Aug 12 17:08 ..
+5246880 -rw-rw-r-- 1 venedykt venedykt   30 Aug 12 17:08 HEAD
+5253142 -rw-rw-r-- 1 venedykt venedykt   41 Sep 20 16:49 main
 
 ./.git/refs/tags:
-total 0
-54737665 drwxr-xr-x@ 2 venedyktmitishov  staff   64 Aug 20 19:27 .
-54737658 drwxr-xr-x@ 5 venedyktmitishov  staff  160 Aug 20 19:27 ..
+total 8
+5246872 drwxrwxr-x 2 venedykt venedykt 4096 Aug 12 17:08 .
+5246870 drwxrwxr-x 5 venedykt venedykt 4096 Aug 12 17:08 ..
 
 ./.vscode:
-total 8
-56808725 drwxr-xr-x@  3 venedyktmitishov  staff   96 Sep 12 19:50 .
-54737622 drwxr-xr-x@ 15 venedyktmitishov  staff  480 Sep 12 19:50 ..
-56808726 -rw-r--r--@  1 venedyktmitishov  staff  713 Sep 12 19:50 tasks.json
+total 12
+5900175 drwxrwxr-x  2 venedykt venedykt 4096 Sep  9 21:00 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+5900176 -rw-rw-r--  1 venedykt venedykt  713 Sep  9 21:00 tasks.json
 
 ./Assembly 6502:
-total 24
-54737699 drwxr-xr-x@  5 venedyktmitishov  staff  160 Sep 12 19:50 .
-54737622 drwxr-xr-x@ 15 venedyktmitishov  staff  480 Sep 12 19:50 ..
-56808727 -rw-r--r--@  1 venedyktmitishov  staff  718 Sep 12 19:50 fib.ASM
-56808728 -rw-r--r--@  1 venedyktmitishov  staff  248 Sep 12 19:50 instructions_arguments.ASM
-54737700 -rw-r--r--@  1 venedyktmitishov  staff  266 Aug 20 19:27 LDX_register.ASM
+total 20
+5246891 drwxrwxr-x  2 venedykt venedykt 4096 Sep  9 22:42 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+5246892 -rw-rw-r--  1 venedykt venedykt  266 Aug 12 17:08 LDX_register.ASM
+5253062 -rw-rw-r--  1 venedykt venedykt  718 Sep  9 22:57 fib.ASM
+5246893 -rw-rw-r--  1 venedykt venedykt  248 Aug 12 17:08 instructions_arguments.ASM
+
+./BASIC:
+total 12
+6029469 drwxrwxr-x  2 venedykt venedykt 4096 Sep 20 15:01 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+6029470 -rw-rw-r--  1 venedykt venedykt  839 Sep 20 14:58 grade_calc.bas
+
+./COBOL:
+total 12
+6029466 drwxrwxr-x  2 venedykt venedykt 4096 Sep 20 15:03 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+6029743 -rw-rw-r--  1 venedykt venedykt 2507 Sep 20 15:03 grade_calc.cob
+
+./Fortran:
+total 12
+6029761 drwxrwxr-x  2 venedykt venedykt 4096 Sep 20 15:17 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+6029762 -rw-rw-r--  1 venedykt venedykt 1699 Sep 20 15:11 grade_calc.f90
+
+./Haskell:
+total 12
+6029748 drwxrwxr-x  2 venedykt venedykt 4096 Sep 20 15:15 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+6029749 -rw-rw-r--  1 venedykt venedykt 1417 Sep 20 15:05 grade_calc.hs
+
+./Lua:
+total 12
+6029464 drwxrwxr-x  2 venedykt venedykt 4096 Sep 20 15:01 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+6029475 -rw-rw-r--  1 venedykt venedykt 1301 Sep 20 15:01 grade_calc.lua
+
+./PASCAL:
+total 12
+6029717 drwxrwxr-x  2 venedykt venedykt 4096 Sep 20 15:16 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+6029718 -rw-rw-r--  1 venedykt venedykt 1075 Sep 20 15:16 grade_calc.pas
+
+./Perl:
+total 12
+6029765 drwxrwxr-x  2 venedykt venedykt 4096 Sep 20 15:17 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+6029766 -rw-rw-r--  1 venedykt venedykt 1081 Sep 20 15:13 grade_calc.pl
+
+./TLA+:
+total 12
+6029752 drwxrwxr-x  2 venedykt venedykt 4096 Sep 20 15:18 .
+5244424 drwxrwxr-x 14 venedykt venedykt 4096 Sep 20 15:18 ..
+6029753 -rw-rw-r--  1 venedykt venedykt  985 Sep 20 15:06 grade_calc.tla
 
 ./UNIX:
-total 256
-54737705 drwxr-xr-x@ 19 venedyktmitishov  staff    608 Sep 12 19:50 .
-54737622 drwxr-xr-x@ 15 venedyktmitishov  staff    480 Sep 12 19:50 ..
-56808746 drwxr-xr-x@  3 venedyktmitishov  staff     96 Sep 12 19:50 archive
-56808730 drwxr-xr-x@ 15 venedyktmitishov  staff    480 Sep 15 21:49 C_programs
-56808748 -rw-r--r--@  1 venedyktmitishov  staff    255 Sep 12 19:50 columns
-56808749 -rw-r--r--@  1 venedyktmitishov  staff   1096 Sep 12 19:50 columns_names
-54737718 -rwxr-xr-x@  1 venedyktmitishov  staff  54986 Aug 20 19:27 func.exe
-56808750 -rw-r--r--@  1 venedyktmitishov  staff     17 Sep 12 19:50 link_hard
-56808751 lrwxr-xr-x@  1 venedyktmitishov  staff     14 Sep 12 19:50 link_soft -> soft_link_test
-56808752 -rw-r--r--@  1 venedyktmitishov  staff  32304 Sep 12 19:50 linux-file-hierarchy.png
-54737719 -rw-r--r--@  1 venedyktmitishov  staff   6602 Aug 20 19:27 linux-special-permissions-explained.png
-56808753 drwxr-xr-x@  9 venedyktmitishov  staff    288 Sep 12 19:50 logs
-56808761 -rwxr-xr-x@  1 venedyktmitishov  staff    107 Sep 12 19:50 names
-56808762 drwxr-xr-x@ 10 venedyktmitishov  staff    320 Sep 12 19:50 procctl
-54737729 -rwxr-xr-x@  1 venedyktmitishov  staff    357 Aug 20 19:27 random_usernames
-56808790 drwxr-xr-x@  9 venedyktmitishov  staff    288 Sep 12 19:50 shell_scripts
-54737732 drwxr-xr-x@  5 venedyktmitishov  staff    160 Sep 12 19:50 structure
-56808801 -rw-r--r--@  1 venedyktmitishov  staff   4556 Sep 12 19:50 tee-command-explanation.png
-56808802 -rw-r--r--@  1 venedyktmitishov  staff   2778 Sep 12 19:50 users_in_system.txt
-
-./UNIX/archive:
-total 8
-56808746 drwxr-xr-x@  3 venedyktmitishov  staff   96 Sep 12 19:50 .
-54737705 drwxr-xr-x@ 19 venedyktmitishov  staff  608 Sep 12 19:50 ..
-56808747 -rw-r--r--@  1 venedyktmitishov  staff  963 Sep 12 19:50 last_changes.txt
+total 104
+5246897 drwxrwxr-x  8 venedykt venedykt  4096 Sep 20 14:58 .
+5244424 drwxrwxr-x 14 venedykt venedykt  4096 Sep 20 15:18 ..
+5636273 drwxrwxr-x  4 venedykt venedykt  4096 Sep 20 16:48 C_programs
+5649658 drwxrwxr-x  2 venedykt venedykt  4096 Aug 24 14:59 archive
+5277035 -rw-rw-r--  1 venedykt venedykt   255 Aug 24 14:56 columns
+5245974 -rw-rw-r--  1 venedykt venedykt  1096 Sep  9 20:49 columns_names
+5248494 -rw-rw-r--  2 venedykt venedykt    17 Aug 21 19:08 link_hard
+5275053 lrwxrwxrwx  1 venedykt venedykt    14 Aug 21 19:08 link_soft -> soft_link_test
+5249074 -rw-rw-r--  1 venedykt venedykt 32304 Sep 11 19:59 linux-file-hierarchy.png
+5248890 -rw-rw-r--  1 venedykt venedykt  6602 Aug 18 15:29 linux-special-permissions-explained.png
+5506367 drwxrwxr-x  2 venedykt venedykt  4096 Aug 29 10:51 logs
+5246906 -rwxrw-r--  1 venedykt venedykt   107 Aug 31 19:36 names
+5899292 drwxrwxr-x  7 venedykt venedykt  4096 Sep  9 22:15 procctl
+5246911 -rwxrw-r--  1 venedykt venedykt   357 Aug 12 17:08 random_usernames
+5646301 drwxrwxr-x  2 venedykt venedykt  4096 Aug 29 10:44 shell_scripts
+5524465 drwxrwxr-t  2 venedykt venedykt  4096 Sep 19 19:42 structure
+5244655 -rw-rw-r--  1 venedykt venedykt  4556 Aug 26 22:29 tee-command-explanation.png
+5256360 -rw-rw-r--  1 venedykt venedykt  2778 Aug 27 18:11 users_in_system.txt
 
 ./UNIX/C_programs:
-total 160
-56808730 drwxr-xr-x@ 15 venedyktmitishov  staff    480 Sep 15 21:49 .
-54737705 drwxr-xr-x@ 19 venedyktmitishov  staff    608 Sep 12 19:50 ..
-56808731 -rw-r--r--@  1 venedyktmitishov  staff    845 Sep 12 19:50 brk_sbrk.c
-56808732 drwxr-xr-x@  3 venedyktmitishov  staff     96 Sep 12 19:50 deamons
-57330923 -rw-r--r--@  1 venedyktmitishov  staff    385 Sep 16 11:51 declare_assign.c
-56808737 -rwxr-xr-x@  1 venedyktmitishov  staff    920 Sep 12 19:50 exec.c
-56808738 -rw-r--r--@  1 venedyktmitishov  staff    239 Sep 12 19:50 fib.c
-56808739 -rwxr-xr-x@  1 venedyktmitishov  staff    475 Sep 12 19:50 fork.c
-56808740 -rwxr-xr-x@  1 venedyktmitishov  staff    183 Sep 12 19:50 func.c
-56808741 -rw-r--r--@  1 venedyktmitishov  staff   1424 Sep 12 19:50 getpid.c
-56808742 -rw-r--r--@  1 venedyktmitishov  staff   2393 Sep 12 21:46 main.c
-56827460 -rwxr-xr-x@  1 venedyktmitishov  staff  33560 Sep 12 21:46 main.exe
-56808743 -rw-r--r--@  1 venedyktmitishov  staff    787 Sep 12 19:50 process_change_priority.c
-56808744 -rw-r--r--@  1 venedyktmitishov  staff    759 Sep 12 19:50 ptrace.c
-56808745 -rw-r--r--@  1 venedyktmitishov  staff    425 Sep 12 19:50 times.c
+total 40
+5636273 drwxrwxr-x 4 venedykt venedykt 4096 Sep 20 16:48 .
+5246897 drwxrwxr-x 8 venedykt venedykt 4096 Sep 20 14:58 ..
+6029783 drwxrwxr-x 3 venedykt venedykt 4096 Sep 20 16:37 book
+5248221 drwxrwsr-x 3 venedykt venedykt 4096 Aug 12 18:35 deamons
+5636237 -rw-rw-r-- 1 venedykt venedykt 1168 Sep 20 14:38 declare_assign.c
+5644151 -rw-rw-r-- 1 venedykt venedykt  239 Sep  9 22:57 fib.c
+5636256 -rw-rw-r-- 1 venedykt venedykt 1241 Sep 20 16:11 interact_libs_game.c
+5636107 -rw-rw-r-- 1 venedykt venedykt 2393 Sep 19 19:42 main.c
+5636456 -rw-rw-r-- 1 venedykt venedykt  356 Sep 20 16:47 math_func.c
+5636240 -rw-rw-r-- 1 venedykt venedykt  612 Sep 20 14:39 prods_bucket.c
+
+./UNIX/C_programs/book:
+total 12
+6029783 drwxrwxr-x 3 venedykt venedykt 4096 Sep 20 16:37 .
+5636273 drwxrwxr-x 4 venedykt venedykt 4096 Sep 20 16:48 ..
+6029914 drwxrwxr-x 2 venedykt venedykt 4096 Sep 20 16:37 part_2
+
+./UNIX/C_programs/book/part_2:
+total 40
+6029914 drwxrwxr-x 2 venedykt venedykt 4096 Sep 20 16:37 .
+6029783 drwxrwxr-x 3 venedykt venedykt 4096 Sep 20 16:37 ..
+5643538 -rw-rw-r-- 1 venedykt venedykt 1092 Sep 20 16:34 brk_sbrk.c
+5254024 -rwxrw-r-- 1 venedykt venedykt  920 Aug 21 15:59 exec.c
+5253633 -rwxrw-r-- 1 venedykt venedykt  475 Sep 10 13:29 fork.c
+5246900 -rwxrw-r-- 1 venedykt venedykt  183 Aug 12 17:08 func.c
+5273879 -rw-rw-r-- 1 venedykt venedykt 1424 Aug 21 18:07 getpid.c
+5647392 -rw-rw-r-- 1 venedykt venedykt  787 Aug 28 16:01 process_change_priority.c
+5273534 -rw-rw-r-- 1 venedykt venedykt  759 Aug 21 16:05 ptrace.c
+5644112 -rw-rw-r-- 1 venedykt venedykt  425 Sep 10 11:25 times.c
 
 ./UNIX/C_programs/deamons:
-total 0
-56808732 drwxr-xr-x@  3 venedyktmitishov  staff   96 Sep 12 19:50 .
-56808730 drwxr-xr-x@ 15 venedyktmitishov  staff  480 Sep 15 21:49 ..
-56808733 drwxr-xr-x@  3 venedyktmitishov  staff   96 Sep 12 19:50 layers
+total 12
+5248221 drwxrwsr-x 3 venedykt venedykt 4096 Aug 12 18:35 .
+5636273 drwxrwxr-x 4 venedykt venedykt 4096 Sep 20 16:48 ..
+5249498 drwxrwxr-t 3 venedykt venedykt 4096 Aug 17 18:05 layers
 
 ./UNIX/C_programs/deamons/layers:
-total 0
-56808733 drwxr-xr-x@ 3 venedyktmitishov  staff  96 Sep 12 19:50 .
-56808732 drwxr-xr-x@ 3 venedyktmitishov  staff  96 Sep 12 19:50 ..
-56808734 drwxr-xr-x@ 3 venedyktmitishov  staff  96 Sep 12 19:50 breakers
+total 12
+5249498 drwxrwxr-t 3 venedykt venedykt 4096 Aug 17 18:05 .
+5248221 drwxrwsr-x 3 venedykt venedykt 4096 Aug 12 18:35 ..
+5249499 drwxrwxr-x 3 venedykt venedykt 4096 Aug 31 15:45 breakers
 
 ./UNIX/C_programs/deamons/layers/breakers:
-total 0
-56808734 drwxr-xr-x@ 3 venedyktmitishov  staff  96 Sep 12 19:50 .
-56808733 drwxr-xr-x@ 3 venedyktmitishov  staff  96 Sep 12 19:50 ..
-56808735 drwxr-xr-x@ 3 venedyktmitishov  staff  96 Sep 12 19:50 icebreaker
+total 12
+5249499 drwxrwxr-x 3 venedykt venedykt 4096 Aug 31 15:45 .
+5249498 drwxrwxr-t 3 venedykt venedykt 4096 Aug 17 18:05 ..
+5249500 drwxrwxr-x 2 venedykt venedykt 4096 Aug 17 17:17 icebreaker
 
 ./UNIX/C_programs/deamons/layers/breakers/icebreaker:
-total 8
-56808735 drwxr-xr-x@ 3 venedyktmitishov  staff  96 Sep 12 19:50 .
-56808734 drwxr-xr-x@ 3 venedyktmitishov  staff  96 Sep 12 19:50 ..
-56808736 -rw-r--r--@ 1 venedyktmitishov  staff  53 Sep 12 19:50 ice_breaker.c
+total 12
+5249500 drwxrwxr-x 2 venedykt venedykt 4096 Aug 17 17:17 .
+5249499 drwxrwxr-x 3 venedykt venedykt 4096 Aug 31 15:45 ..
+5248590 -rw-rw-r-- 1 venedykt venedykt   53 Aug 12 19:12 ice_breaker.c
+
+./UNIX/archive:
+total 12
+5649658 drwxrwxr-x 2 venedykt venedykt 4096 Aug 24 14:59 .
+5246897 drwxrwxr-x 8 venedykt venedykt 4096 Sep 20 14:58 ..
+5649788 -rw-rw-r-- 1 venedykt venedykt  963 Aug 31 16:15 last_changes.txt
 
 ./UNIX/logs:
-total 120
-56808753 drwxr-xr-x@  9 venedyktmitishov  staff    288 Sep 12 19:50 .
-54737705 drwxr-xr-x@ 19 venedyktmitishov  staff    608 Sep 12 19:50 ..
-56808754 -rwxr-xr-x@  1 venedyktmitishov  staff   1608 Sep 12 19:50 log_report.awk
-56808755 -rw-r--r--@  1 venedyktmitishov  staff    812 Sep 12 19:50 log_report.html
-56808756 -rw-r--r--@  1 venedyktmitishov  staff  10677 Sep 12 19:50 nl-b-a-server.log
-56808757 -rw-r--r--@  1 venedyktmitishov  staff  10711 Sep 12 19:50 nl-b-p_^#^_.log
-56808758 -rw-r--r--@  1 venedyktmitishov  staff  10677 Sep 12 19:50 nl-n-rz-server.log
-56808760 -rw-r--r--@  1 venedyktmitishov  staff   3081 Sep 12 19:50 server_log.txt
-56808759 -rw-r--r--@  1 venedyktmitishov  staff   9976 Sep 12 19:50 server.log
+total 68
+5506367 drwxrwxr-x 2 venedykt venedykt  4096 Aug 29 10:51 .
+5246897 drwxrwxr-x 8 venedykt venedykt  4096 Sep 20 14:58 ..
+5506453 -rwxrwxr-x 1 venedykt venedykt  1608 Aug 29 10:50 log_report.awk
+5525051 -rw-rw-r-- 1 venedykt venedykt   812 Aug 29 10:51 log_report.html
+5524004 -rw-rw-r-- 1 venedykt venedykt 10677 Aug 26 22:10 nl-b-a-server.log
+5525844 -rw-rw-r-- 1 venedykt venedykt 10711 Aug 26 22:23 nl-b-p_^#^_.log
+5524486 -rw-rw-r-- 1 venedykt venedykt 10677 Aug 26 22:12 nl-n-rz-server.log
+5506368 -rw-rw-r-- 1 venedykt venedykt  9976 Aug 28 19:39 server.log
+5525326 -rw-rw-r-- 1 venedykt venedykt  3081 Aug 29 10:07 server_log.txt
 
 ./UNIX/procctl:
-total 16
-56808762 drwxr-xr-x@ 10 venedyktmitishov  staff  320 Sep 12 19:50 .
-54737705 drwxr-xr-x@ 19 venedyktmitishov  staff  608 Sep 12 19:50 ..
-56808766 drwxr-xr-x@  3 venedyktmitishov  staff   96 Sep 12 19:50 conf
-56808768 -rw-r--r--@  1 venedyktmitishov  staff   96 Sep 12 19:50 hello-world.cpp
-56808769 drwxr-xr-x@  8 venedyktmitishov  staff  256 Sep 12 19:50 include
-56808763 -rw-r--r--@  1 venedyktmitishov  staff  846 Sep 12 19:50 Makefile
-56808764 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 NOTES.md
-56808765 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 README.md
-56808776 drwxr-xr-x@  9 venedyktmitishov  staff  288 Sep 12 19:50 src
-56808784 drwxr-xr-x@  7 venedyktmitishov  staff  224 Sep 12 19:50 stages
+total 36
+5899292 drwxrwxr-x 7 venedykt venedykt 4096 Sep  9 22:15 .
+5246897 drwxrwxr-x 8 venedykt venedykt 4096 Sep 20 14:58 ..
+5899313 -rw-rw-r-- 1 venedykt venedykt  846 Sep  9 22:15 Makefile
+5899315 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 20:51 NOTES.md
+5899314 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 20:51 README.md
+5899312 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 21:33 conf
+5266904 -rw-rw-r-- 1 venedykt venedykt   96 Sep  9 20:59 hello-world.cpp
+5900264 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 21:34 include
+5899308 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 21:22 src
+5899310 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 21:21 stages
+5899311 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 20:50 tests
 
 ./UNIX/procctl/conf:
-total 0
-56808766 drwxr-xr-x@  3 venedyktmitishov  staff   96 Sep 12 19:50 .
-56808762 drwxr-xr-x@ 10 venedyktmitishov  staff  320 Sep 12 19:50 ..
-56808767 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 procctl.conf
+total 8
+5899312 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 21:33 .
+5899292 drwxrwxr-x 7 venedykt venedykt 4096 Sep  9 22:15 ..
+5900192 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:08 procctl.conf
 
 ./UNIX/procctl/include:
-total 0
-56808769 drwxr-xr-x@  8 venedyktmitishov  staff  256 Sep 12 19:50 .
-56808762 drwxr-xr-x@ 10 venedyktmitishov  staff  320 Sep 12 19:50 ..
-56808770 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 priv.h
-56808771 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 procinfo.h
-56808772 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 sched_ctl.h
-56808773 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 signals.h
-56808774 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 supervisor.h
-56808775 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 util.h
+total 8
+5900264 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 21:34 .
+5899292 drwxrwxr-x 7 venedykt venedykt 4096 Sep  9 22:15 ..
+5900270 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:34 priv.h
+5900266 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:34 procinfo.h
+5900269 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:34 sched_ctl.h
+5900268 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:34 signals.h
+5900267 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:34 supervisor.h
+5900265 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:34 util.h
 
 ./UNIX/procctl/src:
-total 0
-56808776 drwxr-xr-x@  9 venedyktmitishov  staff  288 Sep 12 19:50 .
-56808762 drwxr-xr-x@ 10 venedyktmitishov  staff  320 Sep 12 19:50 ..
-56808777 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 main.c
-56808778 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 priv.c
-56808779 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 procinfo.c
-56808780 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 sched_ctl.c
-56808781 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 signals.c
-56808782 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 supervisor.c
-56808783 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 util.c
+total 8
+5899308 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 21:22 .
+5899292 drwxrwxr-x 7 venedykt venedykt 4096 Sep  9 22:15 ..
+5899324 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 20:54 main.c
+5899383 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 20:54 priv.c
+5899326 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 20:54 procinfo.c
+5899382 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 20:54 sched_ctl.c
+5899328 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 20:54 signals.c
+5899327 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 20:54 supervisor.c
+5899325 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 20:54 util.c
 
 ./UNIX/procctl/stages:
+total 12
+5899310 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 21:21 .
+5899292 drwxrwxr-x 7 venedykt venedykt 4096 Sep  9 22:15 ..
+5900193 -rw-rw-r-- 1 venedykt venedykt   88 Sep  9 22:30 s0_addrmap.c
+5900194 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:09 s1_fork.c
+5900195 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:09 s2_states.c
+5900196 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:09 s5_sched.c
+5900197 -rw-rw-r-- 1 venedykt venedykt    0 Sep  9 21:09 s6_priv.c
+
+./UNIX/procctl/tests:
 total 8
-56808784 drwxr-xr-x@  7 venedyktmitishov  staff  224 Sep 12 19:50 .
-56808762 drwxr-xr-x@ 10 venedyktmitishov  staff  320 Sep 12 19:50 ..
-56808785 -rw-r--r--@  1 venedyktmitishov  staff   88 Sep 12 19:50 s0_addrmap.c
-56808786 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 s1_fork.c
-56808787 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 s2_states.c
-56808788 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 s5_sched.c
-56808789 -rw-r--r--@  1 venedyktmitishov  staff    0 Sep 12 19:50 s6_priv.c
+5899311 drwxrwxr-x 2 venedykt venedykt 4096 Sep  9 20:50 .
+5899292 drwxrwxr-x 7 venedykt venedykt 4096 Sep  9 22:15 ..
 
 ./UNIX/shell_scripts:
-total 56
-56808790 drwxr-xr-x@  9 venedyktmitishov  staff   288 Sep 12 19:50 .
-54737705 drwxr-xr-x@ 19 venedyktmitishov  staff   608 Sep 12 19:50 ..
-56808791 -rwxr-xr-x@  1 venedyktmitishov  staff    47 Sep 12 19:50 hello.sh
-56808792 -rwxr-xr-x@  1 venedyktmitishov  staff   716 Sep 12 19:50 multi_tab.sh
-56808793 -rwxr-xr-x@  1 venedyktmitishov  staff   495 Sep 12 19:50 multiplication_table_sh.txt
-56808794 -rwxr-xr-x@  1 venedyktmitishov  staff    79 Sep 12 19:50 nu.sh
-56808795 -rwxr-xr-x@  1 venedyktmitishov  staff  3151 Sep 12 19:50 server-stats.sh
-56808796 -rw-r--r--@  1 venedyktmitishov  staff    51 Sep 12 19:50 stdout_redirect.sh
-56808797 -rwxr-xr-x@  1 venedyktmitishov  staff    84 Sep 12 19:50 test_vars.sh
+total 36
+5646301 drwxrwxr-x 2 venedykt venedykt 4096 Aug 29 10:44 .
+5246897 drwxrwxr-x 8 venedykt venedykt 4096 Sep 20 14:58 ..
+5266544 -rwxrwxr-x 1 venedykt venedykt   47 Aug 15 20:22 hello.sh
+5246903 -rwxrw-r-- 1 venedykt venedykt  716 Aug 20 23:29 multi_tab.sh
+5270657 -rwxrw-r-- 1 venedykt venedykt  495 Aug 17 00:02 multiplication_table_sh.txt
+5246909 -rwxrwxrwx 1 venedykt venedykt   79 Aug 28 17:06 nu.sh
+5647541 -rwxrwxr-x 1 venedykt venedykt 3151 Aug 29 11:11 server-stats.sh
+5646058 -rw-rw-r-- 1 venedykt venedykt   51 Aug 24 16:06 stdout_redirect.sh
+5253510 -rwxrwxr-x 1 venedykt venedykt   84 Aug 15 20:07 test_vars.sh
 
 ./UNIX/structure:
-total 48
-54737732 drwxr-xr-x@  5 venedyktmitishov  staff    160 Sep 12 19:50 .
-54737705 drwxr-xr-x@ 19 venedyktmitishov  staff    608 Sep 12 19:50 ..
-56808798 -rw-r--r--@  1 venedyktmitishov  staff   3141 Sep 12 19:50 df_du.txt
-56808799 -rw-r--r--@  1 venedyktmitishov  staff  16384 Sep 16 11:52 ls.txt
-56808800 -rw-r--r--@  1 venedyktmitishov  staff   3041 Sep 16 11:52 tree.txt
+total 80
+5524465 drwxrwxr-t 2 venedykt venedykt  4096 Sep 19 19:42 .
+5246897 drwxrwxr-x 8 venedykt venedykt  4096 Sep 20 14:58 ..
+5524005 -rw-rw-r-- 1 venedykt venedykt  3141 Sep  9 22:58 df_du.txt
+5528712 -rw-rw-r-- 1 venedykt venedykt 65197 Sep 20  2026 ls.txt
+5524484 -rw-rw-r-- 1 venedykt venedykt  3700 Sep 20 16:50 tree.txt
