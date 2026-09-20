@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <string.h>
+
 int main(void) {
 
     int age = 0;
@@ -12,7 +13,7 @@ int main(void) {
     scanf("%d", &age); // allow user put the value through terminal
 
     printf("Enter your GPA: ");
-    scanf("%f", &gpa);
+    scanf("%f", &gpa); // primary for number types(int, float, double, etc.)
 
     printf("Enter your grade: ");
     scanf(" %c", &grade); // add whitespace to clear input buffer for new line
