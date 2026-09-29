@@ -24,10 +24,10 @@ int main() {
     // x/=3;
     x*=4;
 
-    float coordinate = 49.6; // %f , 4 bytes
+    float coordinate = 49.6; // %f , 4 bytes, less precise, takes 6-9 digits, 32-bits
     float price = 19.99;
 
-    double pi = 3.1415926535897932384626433; // %lf , 8 bytes
+    double pi = 3.1415926535897932384626433; // %lf , 8 bytes, more precise, take to 17 digits, 64-bits
 
     char grade = 'A'; // %c , 1 byte
     char symbol = '!';

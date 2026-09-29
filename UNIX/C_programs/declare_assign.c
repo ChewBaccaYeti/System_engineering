@@ -10,7 +10,7 @@ int main(void) {
     double pi = 0.000; // 3.1415926535897932384626433;
 
     printf("Enter your age: ");
-    scanf("%d", &age); // allow user put the value through terminal
+    scanf("%d", &age); // allow user put the value through the terminal
 
     printf("Enter your GPA: ");
     scanf("%f", &gpa); // primary for number types(int, float, double, etc.)
