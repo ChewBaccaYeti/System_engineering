@@ -2,9 +2,10 @@
 #include <math.h>
 
 //! Formulas - (https://www.geeksforgeeks.org/maths/area-formulas/)
-//? geometricall values of Sphere(circle) 
+//? geometricall values of Sphere(circle)
 
-int main() {
+int main()
+{
 
     double radius = 0.0;
     double area = 0.0;
@@ -24,5 +25,5 @@ int main() {
     volume = (4 / 3) * (PI * pow(radius, 2)); // Volume of Sphere(circle) = 4/3πr3
     printf("Volume: %.2lf\n", volume);
 
-    return 0; 
+    return 0;
 };

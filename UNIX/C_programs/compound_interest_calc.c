@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main()
+{
 
     // A=P×(1+n/r​)nt
     //?
-    /* 
-        A - is total amount; 
-        P - is principal amount; 
-        r - is annual interest rate; 
+    /*
+        A - is total amount;
+        P - is principal amount;
+        r - is annual interest rate;
         n - is the number of times interest is compounded per year;
         t - is the number of years the money is invested or borrowed;
     */

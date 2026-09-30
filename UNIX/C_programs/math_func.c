@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include <math.h> // for math methods
+#include <math.h>    // for math methods
 #include <complex.h> // for ctanf method
 
-int main() {
+int main()
+{
 
     float x = 4.67;
     float y = 2.45;
@@ -21,13 +22,13 @@ int main() {
 
     double pi = 3.1415926535897932384626433;
 
-    x = sqrt(x); // 2.161018
+    x = sqrt(x);   // 2.161018
     y = pow(y, 4); // 36.030010
-    z = round(z); // 7
-    q = ceil(q); // 6
-    w = floor(w); // 2
-    t = abs(t); // 7.6
-    f = log(f); // 2.1
+    z = round(z);  // 7
+    q = ceil(q);   // 6
+    w = floor(w);  // 2
+    t = abs(t);    // 7.6
+    f = log(f);    // 2.1
 
     i = sin(i); // 2.161018
     o = cos(o); // -0.448074

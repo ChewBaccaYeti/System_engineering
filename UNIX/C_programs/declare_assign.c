@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(void) {
+int main(void)
+{
 
     int age = 0;
     float gpa = 0.0f;
@@ -22,7 +23,7 @@ int main(void) {
     printf("Enter your full name: ");
     // fgets(name, 8, stdin); // stands for - file_get_string
     fgets(name, sizeof(name), stdin); // sizeof(var) stands for bytes calculation
-    name[strlen(name) - 1]  = '\0'; // strlen stands for string length, and here removes new line character
+    name[strlen(name) - 1] = '\0';    // strlen stands for string length, and here removes new line character
 
     printf("%d\n", age);
     printf("%.2f\n", gpa); // .2f for scanf limit, otherwise it will show long number with zeros

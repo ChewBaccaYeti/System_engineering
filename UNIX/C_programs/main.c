@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main() {
+int main()
+{
     int age = 29; // %d , 4 bytes
     int year = 2026;
 
@@ -22,7 +23,7 @@ int main() {
     // x+=2;
     // x-=2;
     // x/=3;
-    x*=4;
+    x *= 4;
 
     float coordinate = 49.6; // %f , 4 bytes, less precise, takes 6-9 digits, 32-bits
     float price = 19.99;
@@ -37,7 +38,7 @@ int main() {
     char email[] = "fake123@gmail.com";
 
     // library required , 1 byte
-    bool isOnline = true; // or 1===true
+    bool isOnline = true;   // or 1===true
     bool isPlaying = false; // or 0===false
 
     printf("You are %d years old!\n", age); // d stand for decimal -> int, since I using number type(integer)
@@ -54,27 +55,36 @@ int main() {
     printf("%.1f\n", z);
     printf("%d\n", x);
 
-    printf("Coordinate is %f\n", coordinate); // 49.599998
+    printf("Coordinate is %f\n", coordinate);           // 49.599998
     printf("Rounded Coordinate is %.1f\n", coordinate); // 49.6
 
-    printf("Your price is %f\n", price); // 19.990000
+    printf("Your price is %f\n", price);             // 19.990000
     printf("Your rounded price is %+3.1f\n", price); // 20
-    printf("Your precise price is %4.2f\n", price); // 19.99
+    printf("Your precise price is %4.2f\n", price);  // 19.99
 
-    printf("Pi integer is %lf\n", pi); // 3.141593
+    printf("Pi integer is %lf\n", pi);         // 3.141593
     printf("Pi long integer is %.16lf\n", pi); // 3.1415926535897931
 
     printf("Your grade is %c and currency is %c%c\nGood job Mr.%s%c\nNow check your E-mail: %s\n", grade, currency, symbol, name, symbol, email);
 
-    if(isOnline) {
+    if (isOnline)
+    {
         printf("You ARE online%c\n", symbol);
-    } else if(!isOnline) {
+    }
+    else if (!isOnline)
+    {
         printf("You ARE NOT online%c\n", symbol);
-    } else if(!isPlaying) {
+    }
+    else if (!isPlaying)
+    {
         printf("You ARE playing%c\n", symbol);
-    } else if(isPlaying) {
+    }
+    else if (isPlaying)
+    {
         printf("You ARE NOT playing%c\n", symbol);
-    } else {
+    }
+    else
+    {
         printf("Nothing to report.");
     };
 

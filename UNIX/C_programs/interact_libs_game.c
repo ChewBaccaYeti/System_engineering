@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{
 
     char noun[30] = "";
     char verb[30] = "";
