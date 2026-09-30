@@ -1,0 +1,3 @@
+Tasks:
+    - FuzzBuzz - 3 / 5
+    - Copy file (native C)
