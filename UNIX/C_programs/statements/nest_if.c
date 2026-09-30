@@ -20,7 +20,8 @@ int main()
         isSenior = true;
     }
 
-    if (isStudent && isSenior) {
+    if (isStudent && isSenior)
+    {
         printf("You get a student and senior discount of 30 percent\n");
         price *= 0.7;
     }

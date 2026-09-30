@@ -27,6 +27,7 @@
 │   └── grade_calc.pas
 ├── Perl
 │   └── grade_calc.pl
+├── quest.txt
 ├── README.md
 ├── soft_link_test
 ├── TLA+
@@ -37,6 +38,11 @@
     ├── columns
     ├── columns_names
     ├── C_programs
+    │   ├── algo
+    │   │   └── fuzz_buzz
+    │   │       ├── fuzz_buzz_2.c
+    │   │       ├── fuzz_buzz_3.c
+    │   │       └── fuzz_buzz.c
     │   ├── book
     │   │   └── part_2
     │   │       ├── brk_sbrk.c
@@ -47,6 +53,7 @@
     │   │       ├── process_change_priority.c
     │   │       ├── ptrace.c
     │   │       └── times.c
+    │   ├── compound_interest_calc.c
     │   ├── deamons
     │   │   └── layers
     │   │       └── breakers
@@ -57,7 +64,15 @@
     │   ├── interact_libs_game.c
     │   ├── main.c
     │   ├── math_func.c
-    │   └── prods_bucket.c
+    │   ├── prods_bucket.c
+    │   ├── radius.c
+    │   └── statements
+    │       ├── calculator.c
+    │       ├── if_state.c
+    │       ├── kilo_to_pounds.c
+    │       ├── nest_if.c
+    │       ├── switches.c
+    │       └── temp_conver_prog.c
     ├── link_hard
     ├── link_soft -> soft_link_test
     ├── linux-file-hierarchy.png
@@ -116,5 +131,5 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-28 directories, 82 files
+31 directories, 94 files
 ```
