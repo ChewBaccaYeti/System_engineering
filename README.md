@@ -30,11 +30,20 @@
 ├── quest.txt
 ├── README.md
 ├── soft_link_test
+├── syscall_list.txt
 ├── TLA+
 │   └── grade_calc.tla
 └── UNIX
     ├── archive
-    │   └── last_changes.txt
+    │   ├── last_changes.txt
+    │   └── logs
+    │       ├── log_report.awk
+    │       ├── log_report.html
+    │       ├── nl-b-a-server.log
+    │       ├── nl-b-p_^#^_.log
+    │       ├── nl-n-rz-server.log
+    │       ├── server.log
+    │       └── server_log.txt
     ├── columns
     ├── columns_names
     ├── C_programs
@@ -62,6 +71,7 @@
     │   ├── declare_assign.c
     │   ├── fib.c
     │   ├── interact_libs_game.c
+    │   ├── logic_op.c
     │   ├── main.c
     │   ├── math_func.c
     │   ├── prods_bucket.c
@@ -77,14 +87,6 @@
     ├── link_soft -> soft_link_test
     ├── linux-file-hierarchy.png
     ├── linux-special-permissions-explained.png
-    ├── logs
-    │   ├── log_report.awk
-    │   ├── log_report.html
-    │   ├── nl-b-a-server.log
-    │   ├── nl-b-p_^#^_.log
-    │   ├── nl-n-rz-server.log
-    │   ├── server.log
-    │   └── server_log.txt
     ├── names
     ├── procctl
     │   ├── conf
@@ -115,6 +117,7 @@
     │   │   ├── s5_sched.c
     │   │   └── s6_priv.c
     │   └── tests
+    ├── random_characters.txt
     ├── random_usernames
     ├── shell_scripts
     │   ├── hello.sh
@@ -131,5 +134,5 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-31 directories, 94 files
+31 directories, 97 files
 ```
