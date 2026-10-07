@@ -5,7 +5,7 @@
 int main()
 {
 
-    srand(time(NULL));           // this srand() needs to let free random numbers, 0 will do the same as a NULL itself, 0 == NULL
+    srand(time(NULL));           // this srand() needs to generate random numbers, 0 will do the same as a NULL itself, 0 == NULL
     printf("%d", rand());        // ram() returns random number between 0 and RAND_MAX
     printf("\n%d", RAND_MAX);    // 2147483647 - same
     printf("\n%d", __INT_MAX__); // 2147483647 - same as well.
