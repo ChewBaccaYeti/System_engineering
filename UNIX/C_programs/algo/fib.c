@@ -2,19 +2,14 @@
 
 int main(void)
 {
-    int x, y, z;
+    int x = 0, y = 1, z;
 
-    while (1)
+    while (x < 255)
     {
-        x = 0;
-        y = 1;
-        do
-        {
-            printf("%d\n", x);
+        printf("%d\n", x);
 
-            z = x + y;
-            x = y;
-            y = z;
-        } while (x < 255);
+        z = x + y;
+        x = y;
+        y = z;
     }
 }
