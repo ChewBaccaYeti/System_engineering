@@ -31,7 +31,7 @@ void fuzzBuzz(int n)
         //     printf(ANSI_COLOR_CYAN "Current number: %d\n", i, ANSI_COLOR_RESET);
         // }
 
-        printf("Current number: %d", i);
+        printf("%d", i);
         if (i % 3 == 0)
         {
             printf(" fuzz");

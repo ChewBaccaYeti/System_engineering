@@ -77,7 +77,7 @@ function disk_util() {
     if [ "$ROOT_DISK_USED" -ge 95 ] || [ "$HOME_DISK_USED" -ge 95 ]; then
         echo -e "\nDisk is almost full! Free up some space!"
     else
-        echo -e "\n\033[31mDISK OK\033[0m\n"
+        echo -e "\n\033[31mDISK OK\033[0m\n........................................"
     fi
 }
 

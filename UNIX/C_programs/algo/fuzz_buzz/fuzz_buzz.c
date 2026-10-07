@@ -16,15 +16,15 @@ void fuzzBuzz(int n)
     {
         if (i % 3 == 0 && i % 5 == 0)
         {
-            printf(ANSI_COLOR_GREEN "Current number: %d Fuzz Buzz\n", i, ANSI_COLOR_RESET);
+            printf(ANSI_COLOR_GREEN "%d Fuzz Buzz\n", i, ANSI_COLOR_RESET);
         }
         else if (i % 3 == 0)
         {
-            printf(ANSI_COLOR_RED "Current number: %d Fuzz\n", i, ANSI_COLOR_RESET);
+            printf(ANSI_COLOR_RED "%d Fuzz\n", i, ANSI_COLOR_RESET);
         }
         else if (i % 5 == 0)
         {
-            printf(ANSI_COLOR_BLUE "Current number: %d Buzz\n", i, ANSI_COLOR_RESET);
+            printf(ANSI_COLOR_BLUE "%d Buzz\n", i, ANSI_COLOR_RESET);
         }
         else
         {
