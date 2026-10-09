@@ -47,11 +47,16 @@
     ├── columns
     ├── columns_names
     ├── C_programs
+    │   ├── 2d_arr.c
     │   ├── algo
+    │   │   ├── fibonacci
+    │   │   │   └── fib.c
     │   │   └── fuzz_buzz
+    │   │       ├── f_b.c
     │   │       ├── fuzz_buzz_2.c
     │   │       ├── fuzz_buzz_3.c
     │   │       └── fuzz_buzz.c
+    │   ├── arrays.c
     │   ├── book
     │   │   └── part_2
     │   │       ├── brk_sbrk.c
@@ -62,27 +67,40 @@
     │   │       ├── process_change_priority.c
     │   │       ├── ptrace.c
     │   │       └── times.c
-    │   ├── compound_interest_calc.c
     │   ├── deamons
     │   │   └── layers
     │   │       └── breakers
     │   │           └── icebreaker
     │   │               └── ice_breaker.c
     │   ├── declare_assign.c
-    │   ├── fib.c
-    │   ├── interact_libs_game.c
+    │   ├── func_c.c
     │   ├── logic_op.c
+    │   ├── loops
+    │   │   ├── for_loop.c
+    │   │   ├── nest_for_loop.c
+    │   │   └── while_loop.c
     │   ├── main.c
     │   ├── math_func.c
-    │   ├── prods_bucket.c
-    │   ├── radius.c
-    │   └── statements
-    │       ├── calculator.c
-    │       ├── if_state.c
-    │       ├── kilo_to_pounds.c
-    │       ├── nest_if.c
-    │       ├── switches.c
-    │       └── temp_conver_prog.c
+    │   ├── progs
+    │   │   ├── banking.c
+    │   │   ├── calculator.c
+    │   │   ├── compound_interest_calc.c
+    │   │   ├── fulfill_arr.c
+    │   │   ├── guess_rand_num.c
+    │   │   ├── interact_libs_game.c
+    │   │   ├── kilo_to_pounds.c
+    │   │   ├── prods_bucket.c
+    │   │   ├── radius.c
+    │   │   ├── scissors.c
+    │   │   └── temp_conver_prog.c
+    │   ├── proto_func.c
+    │   ├── pseudo_rand.c
+    │   ├── return.c
+    │   ├── statements
+    │   │   ├── if_state.c
+    │   │   ├── nest_if.c
+    │   │   └── switches.c
+    │   └── vars.c
     ├── link_hard
     ├── link_soft -> soft_link_test
     ├── linux-file-hierarchy.png
@@ -121,7 +139,6 @@
     ├── random_usernames
     ├── shell_scripts
     │   ├── hello.sh
-    │   ├── multiplication_table_sh.txt
     │   ├── multi_tab.sh
     │   ├── nu.sh
     │   ├── server-stats.sh
@@ -134,5 +151,5 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-31 directories, 97 files
+34 directories, 111 files
 ```
