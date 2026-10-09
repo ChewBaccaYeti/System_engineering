@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// alternative to using if-else statements when there a lot of conditions
+//? alternative to using if-else statements when there a lot of conditions
 // and its efficient w/ fixed int value
 int main()
 {

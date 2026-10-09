@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Array - a fixed-size collection of elements of the same data type
+//? Array - a fixed-size collection of elements of the same data type
 //          (Similar to a variable, but it hold more than 1 value)
 int main()
 {
