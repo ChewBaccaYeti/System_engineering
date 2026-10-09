@@ -16,17 +16,17 @@ int main()
     // scores[3] = 70;
     // scores[4] = 60;
 
-    printf("%d bytes", sizeof(scores));       // 20
-    printf(" %d bytes\n", sizeof(scores[0])); // 4
+    printf("%d bytes  %d bytes\n", sizeof(scores), sizeof(scores[0])); // 20, 4
 
     int size = sizeof(scores) / sizeof(scores[0]);
 
     for (int i = 0; i < size; i++)
     {
-        printf("%c - ", grades[i]);
-        printf("%d; ", scores[i]);
+        printf("%c - %d; ", grades[i], scores[i]);
         // out-of-bounds memory case, when there not enough characters from grades[], loop takes its iteration to the name[], which is out of its scope.
     }
+
+    printf("\n");
 
     for (int i = 0; i < 17; i++)
     {
