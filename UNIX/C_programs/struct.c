@@ -10,6 +10,17 @@ typedef struct
     bool isFullTime;
 } Student;
 
+//? this plain declaration of struct, meanwhile, Student above is declared as typedef struct
+struct Example
+{
+    char string[20];
+    char symbol[1];
+    int num;
+    float floating;
+    double large;
+    bool choice;
+};
+
 void printStudent(Student student); // prototype
 
 int main()
@@ -34,6 +45,16 @@ int main()
         true,
     };
 
+    // if struct is not defined as typedef, I must use struct keyword everytime.
+    struct Example example = {
+        "Some text in this string.",
+        '$',
+        8,
+        5.4,
+        3.1415926535897932384626433,
+        true,
+    };
+
     printf("%s\n", happy.name);
     printf("%d\n", happy.age);
     printf("%.1f\n", happy.gpa);
@@ -49,7 +70,7 @@ int main()
     printf("%.1f\n", grumpy.gpa);
     printf("%d : %s\n", grumpy.isFullTime, (grumpy.isFullTime) ? "Yes" : "No");
 
-    Student zero = {0};        // clearing memory , in case if there no variable to display anymore. In that case every value == will be == equal to == 0 zero
+    Student zero = {0};        //? clearing memory , in case if there no variable to display anymore. In that case every value == will be == equal to == 0 zero
     strcpy(zero.name, "Zero"); // assigning values to zero struct
     zero.age = 10101;
     zero.gpa = 101.010;

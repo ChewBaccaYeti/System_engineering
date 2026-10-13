@@ -50,7 +50,7 @@ void connectStatus(Status status)
 
 int main()
 {
-    /*  enum = is a user-defined data type that consists of set of named integer constants.
+    /*  //? enum = is a user-defined data type that consists of set of named integer constants.
         Benefit: replaces numbers with readable names.
     */
 

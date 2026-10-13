@@ -6,7 +6,7 @@ typedef char Initials[4];
 
 int main()
 {
-    // typedef = is a reserved keyword that gives an existing datatype a "nickname"
+    //? typedef = is a reserved keyword that gives an existing datatype a "nickname"
     // typedef existing_type new_name;
 
     Number x = 3;     // int
