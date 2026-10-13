@@ -1,0 +1,68 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
+typedef struct
+{
+    char name[50];
+    int age;
+    float gpa;
+    bool isFullTime;
+} Student;
+
+void printStudent(Student student); // prototype
+
+int main()
+{
+
+    Student happy = {
+        "SpongeBob",
+        30,
+        4.5,
+        true,
+    };
+    Student lazy = {
+        "Patrick",
+        36,
+        1.8,
+        false,
+    };
+    Student grumpy = {
+        "Squidward",
+        45,
+        5.6,
+        true,
+    };
+
+    printf("%s\n", happy.name);
+    printf("%d\n", happy.age);
+    printf("%.1f\n", happy.gpa);
+    printf("%d : %s\n", happy.isFullTime, (happy.isFullTime) ? "Yes" : "No"); // true == 1; false == 2;
+
+    printf("%s\n", lazy.name);
+    printf("%d\n", lazy.age);
+    printf("%.1f\n", lazy.gpa);
+    printf("%d : %s\n", lazy.isFullTime, (lazy.isFullTime) ? "Yes" : "No");
+
+    printf("%s\n", grumpy.name);
+    printf("%d\n", grumpy.age);
+    printf("%.1f\n", grumpy.gpa);
+    printf("%d : %s\n", grumpy.isFullTime, (grumpy.isFullTime) ? "Yes" : "No");
+
+    Student zero = {0};        // clearing memory , in case if there no variable to display anymore. In that case every value == will be == equal to == 0 zero
+    strcpy(zero.name, "Zero"); // assigning values to zero struct
+    zero.age = 10101;
+    zero.gpa = 101.010;
+    zero.isFullTime = false;
+    printStudent(zero); // function invocation for the Zero
+
+    return 0;
+};
+
+void printStudent(Student student)
+{
+    printf("\nName: %s\n", student.name);
+    printf("Age: %d\n", student.age);
+    printf("GPA: %.1f\n", student.gpa);
+    printf("Full-time: %d : %s\n", student.isFullTime, (student.isFullTime) ? "Yes" : "ZERO*NULL");
+};
