@@ -11,8 +11,8 @@ int main()
 {
 
     FILE *pFile = fopen("..//..//write_file.txt", "w"); // write in a root
+    char text[128] = {0};                               // buffer
 
-    char text[128] = {0}; // buffer
     printf("What do I like to write?\n");
     fgets(text, sizeof(text), stdin); // write something in stdin
 

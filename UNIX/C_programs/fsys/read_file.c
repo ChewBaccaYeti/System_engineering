@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+    fopen() - open file to write;
+    fgets() - write text to the file;
+    fprintf() - print text from written file;
+    fclose() - close written file to free memory;
+*/
+
 int main()
 {
 
