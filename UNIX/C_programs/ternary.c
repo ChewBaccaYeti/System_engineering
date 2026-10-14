@@ -4,7 +4,7 @@
 
 int main()
 {
-    // ternary operator is a short-hand for if(condition){}else{} statements
+    //? ternary operator is a short-hand for if(condition){}else{} statements
     // (condition) ? value_if_true : value_if_false;
 
     int x = 0;
