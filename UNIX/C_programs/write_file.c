@@ -12,19 +12,19 @@ int main()
 
     FILE *pFile = fopen("..//..//write_file.txt", "w"); // write in a root
 
-    char text[100] = "";
+    char text[128] = {0}; // buffer
     printf("What do I like to write?\n");
     fgets(text, sizeof(text), stdin); // write something in stdin
 
     if (pFile == NULL)
     {
-        printf("Error opening file\n");
+        printf("COULD_NOT_WRITE_FILE*\n");
         return 1; // return error code
     }
 
     fprintf(pFile, "%s", text); // print just written text from written file
 
-    printf("FILE RECORDED*\n");
+    printf("\nFILE RECORDED*\n");
 
     fclose(pFile);
 
