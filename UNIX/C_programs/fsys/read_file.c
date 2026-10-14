@@ -10,6 +10,10 @@
 int main()
 {
 
+    char filename[128];
+    printf("Enter the filename to open for reading: ");
+    scanf("%s", filename);
+
     FILE *pFile = fopen("..//..//write_file.txt", "r");
     char buffer[1024] = {0};
 

@@ -10,11 +10,15 @@
 int main()
 {
 
-    FILE *pFile = fopen("..//..//write_file.txt", "w"); // write in a root
-    char text[128] = {0};                               // buffer
+    char filename[128];
+    printf("Enter the filename to open for writing: ");
+    scanf("%s", filename);
+
+    FILE *pFile = fopen(filename, "w"); // write in the root
+    char text[128] = {0};               // buffer
 
     printf("What do I like to write?\n");
-    fgets(text, sizeof(text), stdin); // write something in stdin
+    fgets(text, sizeof(text), stdin); // write text in stdin
 
     if (pFile == NULL)
     {
