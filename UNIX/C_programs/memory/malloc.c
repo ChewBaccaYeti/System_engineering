@@ -10,7 +10,7 @@ int main()
     printf("Enter the number of grades(bytes): ");
     scanf("%d", &number);
 
-    char *grades = (char *)malloc(number * sizeof(char));
+    char *grades = (char *)malloc(number * sizeof(char)); // (char *) because on line 30 I iserting character
 
     // segmentation fault
     if (grades == NULL)
