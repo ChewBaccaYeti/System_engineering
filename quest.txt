@@ -1,3 +1,4 @@
 Tasks:
     - FuzzBuzz - 3 / 5
-    - Copy file (native C)
+    - Copy file (native C) w/ syscalls
+    - malloc, calloc, realloc
