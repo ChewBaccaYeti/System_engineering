@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 //? malloc(memory allocation) - is a func that dynamically allocates a specified number of bytes in memory
+// malloc(bytes)
 
 int main()
 {
