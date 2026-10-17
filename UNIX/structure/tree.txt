@@ -9,6 +9,7 @@
 ├── quest.txt
 ├── README.md
 ├── soft_link_test
+├── struct_upd.sh
 ├── syscall_list.txt
 ├── TLA+
 │   └── grade_calc.tla
@@ -67,12 +68,6 @@
     │   │   ├── calculator.c
     │   │   ├── compound_interest_calc.c
     │   │   ├── digital_clocks.c
-    │   │   ├── digital_clocks.dSYM
-    │   │   │   └── Contents
-    │   │   │       └── Resources
-    │   │   │           ├── DWARF
-    │   │   │           └── Relocations
-    │   │   │               └── aarch64
     │   │   ├── fulfill_arr.c
     │   │   ├── guess_rand_num.c
     │   │   ├── interact_libs_game.c
@@ -156,4 +151,4 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-34 directories, 123 files
+28 directories, 124 files
