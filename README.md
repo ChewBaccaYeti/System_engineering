@@ -92,10 +92,13 @@
     │   │   ├── switches.c
     │   │   └── ternary.c
     │   └── types
+    │       ├── casting
+    │       │   └── main.c
     │       ├── declare_assign.c
+    │       ├── extended
+    │       │   └── main.c
     │       ├── integers
     │       │   ├── enums.c
-    │       │   ├── extended.c
     │       │   ├── fix_width_integers.c
     │       │   ├── math_func.c
     │       │   └── pseudo_rand.c
@@ -104,6 +107,11 @@
     │       │   ├── arr_str.c
     │       │   ├── array_struct.c
     │       │   └── arrays.c
+    │       ├── qualifiers
+    │       │   ├── _atomic.c
+    │       │   ├── const.c
+    │       │   ├── restrict.c
+    │       │   └── volatile.c
     │       ├── struct.c
     │       ├── typedef.c
     │       └── vars.c
@@ -158,5 +166,5 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-28 directories, 124 files
+31 directories, 129 files
 <!-- TREE-END -->
