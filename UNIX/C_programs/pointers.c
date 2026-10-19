@@ -5,6 +5,8 @@
     Benefit: they help avoid wasting memory by allowing you to pass the address to the large data structure instead of copying the entire data.
 
 */
+// and the pointer is similar as symbolic link. It doesn't contains value, it's leading to var with its value.
+
 void birthday(int *age);
 
 int main()
