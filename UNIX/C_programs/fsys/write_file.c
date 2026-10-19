@@ -13,6 +13,8 @@ int main()
     char filename[128];
     printf("Enter the filename to open for writing: ");
     scanf("%s", filename);
+    while (getchar() != '\n')
+        ;
 
     FILE *pFile = fopen(filename, "w"); // write in the root
     char text[128] = {0};               // buffer

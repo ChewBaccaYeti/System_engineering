@@ -14,7 +14,7 @@ int main()
     printf("Enter the filename to open for reading: ");
     scanf("%s", filename);
 
-    FILE *pFile = fopen("..//..//write_file.txt", "r");
+    FILE *pFile = fopen(filename, "r");
     char buffer[1024] = {0};
 
     if (pFile == NULL)
