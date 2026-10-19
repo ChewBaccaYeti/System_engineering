@@ -1,19 +1,25 @@
 #include <stdio.h>
 #include <unistd.h> // for write()
 #include <fcntl.h>  // for open(); run command: man 2 open
+#include <stdlib.h> // for exit()
 
-int main()
+int main(int argc, char *argv[])
 {
 
-    char filename[128];
-    int in = open(filename, O_RDONLY);
+    if (argc != 3)
+    {
+        fprintf(stderr, "Usage: %s <source> <destination>\n", argv[0]);
+        return 1;
+    }
+
+    int in = open(argv[1], O_RDONLY);
     if (in == -1)
     {
         perror("open input");
         return 1;
     };
 
-    int out = open(filename, O_CREAT | O_EXCL | O_WRONLY | O_TRUNC, 755); // 755 is a file permission mode, stands for rwx-r-x-r-x
+    int out = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0755); // 0755 is a file permission mode, stands for rwx-r-x-r-x, 0XXX to avoid confusion with decimal numbers
     if (out == -1)
     {
         perror("open output");
@@ -22,7 +28,7 @@ int main()
     };
 
     char buffer[4096];
-    ssize_t n; // signed integer type, for bytes count or error indication; [-1, SSIZE_MAX]
+    ssize_t n; // signed integer type, for count of bytes or error indication; [0, SSIZE_MAX]
 
     while ((n = read(in, buffer, sizeof(buffer))) > 0)
     {
@@ -44,6 +50,9 @@ int main()
     if (n == -1)
     {
         perror("read");
+        close(in);
+        close(out);
+        return 1;
     }
 
     close(in);
