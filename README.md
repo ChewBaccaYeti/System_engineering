@@ -29,8 +29,10 @@
     │       ├── nl-b-a-server.log
     │       ├── nl-b-p_^#^_.log
     │       ├── nl-n-rz-server.log
-    │       ├── server_log.txt
-    │       └── server.log
+    │       ├── server.log
+    │       └── server_log.txt
+    ├── columns
+    ├── columns_names
     ├── C_programs
     │   ├── algo
     │   │   ├── fibonacci
@@ -56,8 +58,8 @@
     │   │   ├── copy_file.c
     │   │   ├── read_file.c
     │   │   ├── syscall_cp_file.c
-    │   │   ├── wr_rd_cp.c
-    │   │   └── write_file.c
+    │   │   ├── write_file.c
+    │   │   └── wr_rd_cp.c
     │   ├── func_c.c
     │   ├── logic_op.c
     │   ├── loops
@@ -104,9 +106,9 @@
     │       │   └── pseudo_rand.c
     │       ├── lists
     │       │   ├── 2d_arr.c
-    │       │   ├── arr_str.c
+    │       │   ├── arrays.c
     │       │   ├── array_struct.c
-    │       │   └── arrays.c
+    │       │   └── arr_str.c
     │       ├── qualifiers
     │       │   ├── _atomic.c
     │       │   ├── const.c
@@ -115,8 +117,6 @@
     │       ├── struct.c
     │       ├── typedef.c
     │       └── vars.c
-    ├── columns
-    ├── columns_names
     ├── link_hard
     ├── link_soft -> soft_link_test
     ├── linux-file-hierarchy.png
@@ -144,12 +144,13 @@
     │   │   ├── signals.c
     │   │   ├── supervisor.c
     │   │   └── util.c
-    │   └── stages
-    │       ├── s0_addrmap.c
-    │       ├── s1_fork.c
-    │       ├── s2_states.c
-    │       ├── s5_sched.c
-    │       └── s6_priv.c
+    │   ├── stages
+    │   │   ├── s0_addrmap.c
+    │   │   ├── s1_fork.c
+    │   │   ├── s2_states.c
+    │   │   ├── s5_sched.c
+    │   │   └── s6_priv.c
+    │   └── tests
     ├── random_characters.txt
     ├── random_usernames
     ├── shell_scripts
@@ -166,5 +167,5 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-31 directories, 129 files
+32 directories, 129 files
 <!-- TREE-END -->
