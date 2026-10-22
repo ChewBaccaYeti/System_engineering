@@ -4,6 +4,7 @@
 ![Spec_perm](https://github.com/ChewBaccaYeti/System_engineering/blob/main/UNIX/linux-special-permissions-explained.png?raw=true)
 ![tee_pipe](https://github.com/ChewBaccaYeti/System_engineering/blob/main/UNIX/tee-command-explanation.png?raw=true)
 
+```-
 <!-- TREE-START -->
 .
 ├── Assembly 6502
@@ -169,3 +170,4 @@
 
 32 directories, 129 files
 <!-- TREE-END -->
+```
