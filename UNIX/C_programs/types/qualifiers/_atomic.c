@@ -1,17 +1,17 @@
-#define _Atomic
+#define _Atomic // C11 specification
 #include <stdio.h>
 #include <pthread.h>
 #include <stdatomic.h>
 
-// 1st method of declaration
-_Atomic int var; // type qualifier
-// 2nd method
-// atomic_int num;
+/*
+    ! 1st method of declaration
+    _Atomic int var;
+    ! 2nd method
+    atomic_int num;
+*/
 
-// atomic counter
-_Atomic int atomic_count = 0;
-// simple counter
-int count = 0;
+_Atomic int atomic_count = 0; // atomic counter
+int count = 0;                // simple counter
 
 // the function which will run in the thread
 void *runner(void *arg)

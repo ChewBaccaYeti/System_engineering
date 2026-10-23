@@ -1,7 +1,7 @@
 total 128
-54737622 drwxr-xr-x@ 18 venedyktmitishov  staff    576 Oct 20 17:45 .
+54737622 drwxr-xr-x@ 18 venedyktmitishov  staff    576 Oct 23 20:27 .
  1018533 drwxr-xr-x  30 venedyktmitishov  staff    960 Sep 10 15:38 ..
-54737623 drwxr-xr-x@ 16 venedyktmitishov  staff    512 Oct 21 09:05 .git
+54737623 drwxr-xr-x@ 20 venedyktmitishov  staff    640 Oct 23 20:27 .git
 58951833 drwxr-xr-x@  3 venedyktmitishov  staff     96 Sep 29 22:06 .github
 56808722 -rw-r--r--@  1 venedyktmitishov  staff      6 Sep 30 15:55 .gitignore
 56808723 -rw-r--r--@  1 venedyktmitishov  staff     40 Sep 12 19:50 .hintrc
@@ -11,7 +11,7 @@ total 128
 56808804 -rw-r--r--@  1 venedyktmitishov  staff     17 Sep 12 19:50 hard_link_test
 56808805 -rw-r--r--@  1 venedyktmitishov  staff    690 Sep 12 19:50 output.txt
 58957299 -rw-r--r--@  1 venedyktmitishov  staff     98 Oct 16 18:50 quest.txt
-62506618 -rw-r--r--@  1 venedyktmitishov  staff   6373 Oct 20 17:45 README.md
+63920986 -rw-r--r--@  1 venedyktmitishov  staff   6421 Oct 23 20:27 README.md
 56808806 -rw-r--r--@  1 venedyktmitishov  staff     16 Sep 12 19:50 soft_link_test
 62075325 -rwxr-xr-x@  1 venedyktmitishov  staff    405 Oct 18 22:53 struct_upd.sh
 61697345 -rwxr-xr-x@  1 venedyktmitishov  staff    840 Oct 14 17:39 syscall_list.txt

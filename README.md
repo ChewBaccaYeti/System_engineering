@@ -84,7 +84,8 @@
     │   │   ├── quiz.c
     │   │   ├── radius.c
     │   │   ├── scissors.c
-    │   │   └── temp_conver_prog.c
+    │   │   ├── temp_conver_prog.c
+    │   │   └── thread_test.c
     │   ├── proto_func.c
     │   ├── return.c
     │   ├── statements
@@ -167,6 +168,6 @@
     ├── tee-command-explanation.png
     └── users_in_system.txt
 
-31 directories, 129 files
+31 directories, 130 files
 <!-- TREE-END -->
 ```
