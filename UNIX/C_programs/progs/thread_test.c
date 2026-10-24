@@ -8,16 +8,21 @@
 #define _Atomic
 #define BIG 10000000UL
 
+#if __STDC_VERSION__ < 201112L || __STDC_NO_ATOMICS__ == 1
+#error "Help! Atomics not supported!!!"
+#endif
+
 // pthread_mutex_t mutex; // `classic` way to control race conditions
-_Atomic uint64_t counter = 0;
+_Atomic uint64_t atomic_counter = 0;
 
 void count_to_big()
 {
     for (int i = 0; i < BIG; i++)
     {
         // pthread_mutex_lock(&mutex);
-        counter += i;
+        atomic_counter += i;
         // pthread_mutex_unlock(&mutex);
+        // atomic_counter = atomic_counter + i; // don't do this!! Compiling garbage
     }
 };
 
@@ -37,7 +42,7 @@ int main(int argc, char **argv)
     pthread_join(t1, NULL);
     pthread_join(t2, NULL);
 
-    printf("The result is: %lu\n", counter);
+    printf("The result is: %lu\n", atomic_counter);
 
     return 0;
 };
